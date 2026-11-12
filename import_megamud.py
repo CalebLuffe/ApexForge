@@ -416,6 +416,34 @@ def parse_mp(path_file):
         elif conditional or action_type == "action":
             move_edges.append({"from": a, "to": b, "direction": act, "action": act, "conditional": True})
 
+    # Closing edge of a looped path: last step's action leads back to loop_nodes[0].
+    # loop_nodes is closed (first == last) at line 390-391, but step_rows only lists
+    # each .mp row once, so the final row's action back to the start room is missing.
+    if (
+        len(step_rows) >= 2
+        and len(loop_nodes) >= 2
+        and loop_nodes[0] == loop_nodes[-1]
+        and step_rows[-1][0] != loop_nodes[0]
+    ):
+        a, act = step_rows[-1]
+        b = loop_nodes[0]
+        if act and a != b:
+            action_type, conditional = _classify_step_action(act)
+            dir_norm = normalize_exit_name(act)
+            is_cardinal_move = (not conditional) and (dir_norm in DIRECTION_TOKENS or action_type == "move")
+            if conditional or action_type == "action" or not is_cardinal_move:
+                step_overrides[f"{a}->{b}"] = {
+                    "direction": act,
+                    "party_cmd": act if "@" in act else "",
+                    "pre_cmd": act if "@" not in act else "",
+                    "conditional_action": bool(conditional or action_type == "action"),
+                    "action_type": action_type,
+                }
+            if is_cardinal_move:
+                move_edges.append({"from": a, "to": b, "direction": dir_norm, "action": act, "conditional": False})
+            elif conditional or action_type == "action":
+                move_edges.append({"from": a, "to": b, "direction": act, "action": act, "conditional": True})
+
     cfg = {
         "name": name, "loop_nodes": loop_nodes, "zone_color_key": zone or "imported",
         "min_level": 1, "max_level": 99, "min_xp_hr": 0, "min_lap_time": 0.0,

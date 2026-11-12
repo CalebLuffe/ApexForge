@@ -29691,7 +29691,7 @@
       "from_meta": "BHRQ:Barren Hills:Barren Hills, Rock Quarry",
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 12,
+      "missing_edge_count": 10,
       "graph_validated": false,
       "derived_node_count": 450,
       "missing_node_count": 0,
@@ -29705,11 +29705,6 @@
         {
           "from": "E7000410",
           "to": "E7001400",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "E7010010",
-          "to": "E7040140",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -29735,11 +29730,6 @@
         {
           "from": "E7011000",
           "to": "E7001400",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "E7004010",
-          "to": "E7040140",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -61685,18 +61675,12 @@
       "from_meta": "CRST:Graveyard:Crypt, Sealed Tomb",
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 1,
-      "graph_validated": false,
+      "missing_edge_count": 0,
+      "graph_validated": true,
       "derived_node_count": 3,
       "missing_node_count": 0,
       "missing_nodes": [],
-      "unconnected_edges": [
-        {
-          "from": "F2600055",
-          "to": "C9E00006",
-          "reason": "no_direct_or_routed_edge"
-        }
-      ],
+      "unconnected_edges": [],
       "conditional_edge_count": 0,
       "conditional_edges": [],
       "manual_review": true,
@@ -71047,7 +71031,7 @@
       "from_meta": "DARG:Darkwood Forest:Darkwood Forest, Green Dragons",
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 21,
+      "missing_edge_count": 20,
       "graph_validated": false,
       "derived_node_count": 682,
       "missing_node_count": 0,
@@ -71091,11 +71075,6 @@
         {
           "from": "F4E00140",
           "to": "F4E00414",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "F4E00104",
-          "to": "F4E04000",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -81419,7 +81398,7 @@
       "from_meta": "DFDS:Darkwood Forest:Horner The Hide",
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 6,
+      "missing_edge_count": 5,
       "graph_validated": false,
       "derived_node_count": 312,
       "missing_node_count": 0,
@@ -81448,11 +81427,6 @@
         {
           "from": "F4E00140",
           "to": "F4E00414",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "F4E00104",
-          "to": "F4E04000",
           "reason": "no_direct_or_routed_edge"
         }
       ],
@@ -84801,7 +84775,7 @@
       "from_meta": "DFGC:Darkwood Forest:Darkwood Forest, Grassy Clearing",
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 6,
+      "missing_edge_count": 5,
       "graph_validated": false,
       "derived_node_count": 66,
       "missing_node_count": 0,
@@ -84810,11 +84784,6 @@
         {
           "from": "F4E00410",
           "to": "F4E00041",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "F4E00410",
-          "to": "F4E04040",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -123369,18 +123338,12 @@
       "from_meta": "FAER:Northern Forests:Faerie Ring",
       "to_meta": "ETRE:Northern Forests:Ancient Tree",
       "validated_edges": false,
-      "missing_edge_count": 1,
-      "graph_validated": false,
+      "missing_edge_count": 0,
+      "graph_validated": true,
       "derived_node_count": 31,
       "missing_node_count": 0,
       "missing_nodes": [],
-      "unconnected_edges": [
-        {
-          "from": "84400144",
-          "to": "CB400005",
-          "reason": "no_direct_or_routed_edge"
-        }
-      ],
+      "unconnected_edges": [],
       "conditional_edge_count": 0,
       "conditional_edges": [],
       "manual_review": true,
@@ -123669,18 +123632,12 @@
       "from_meta": "FAER:Northern Forests:Faerie Ring",
       "to_meta": "FRUT:Northern Forests:Green Fruit Tree",
       "validated_edges": false,
-      "missing_edge_count": 1,
-      "graph_validated": false,
+      "missing_edge_count": 0,
+      "graph_validated": true,
       "derived_node_count": 44,
       "missing_node_count": 0,
       "missing_nodes": [],
-      "unconnected_edges": [
-        {
-          "from": "84400144",
-          "to": "CB404050",
-          "reason": "no_direct_or_routed_edge"
-        }
-      ],
+      "unconnected_edges": [],
       "conditional_edge_count": 1,
       "conditional_edges": [
         {
@@ -124011,18 +123968,12 @@
       "from_meta": "FAER:Northern Forests:Faerie Ring",
       "to_meta": "NUTS:Northern Forests:Brown Nuts Tree",
       "validated_edges": false,
-      "missing_edge_count": 1,
-      "graph_validated": false,
+      "missing_edge_count": 0,
+      "graph_validated": true,
       "derived_node_count": 15,
       "missing_node_count": 0,
       "missing_nodes": [],
-      "unconnected_edges": [
-        {
-          "from": "84400144",
-          "to": "CB400005",
-          "reason": "no_direct_or_routed_edge"
-        }
-      ],
+      "unconnected_edges": [],
       "conditional_edge_count": 1,
       "conditional_edges": [
         {
@@ -127923,7 +127874,7 @@
       "from_meta": "FMAS:Black Fort:Master Assassin",
       "to_meta": "DRKT:Black Fort:Darkened Tunnels",
       "validated_edges": false,
-      "missing_edge_count": 3,
+      "missing_edge_count": 2,
       "graph_validated": false,
       "derived_node_count": 302,
       "missing_node_count": 0,
@@ -127937,11 +127888,6 @@
         {
           "from": "5AF04001",
           "to": "5AF04500",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "5AF04010",
-          "to": "5AF00500",
           "reason": "no_direct_or_routed_edge"
         }
       ],
@@ -151423,17 +151369,12 @@
       "from_meta": "GDDF:Darkwood Forest:Green Dragons",
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 2,
+      "missing_edge_count": 1,
       "graph_validated": false,
       "derived_node_count": 38,
       "missing_node_count": 0,
       "missing_nodes": [],
       "unconnected_edges": [
-        {
-          "from": "F4E00005",
-          "to": "F4F00404",
-          "reason": "no_direct_or_routed_edge"
-        },
         {
           "from": "F4E00005",
           "to": "F4E04104",
@@ -161926,7 +161867,7 @@
       "from_meta": null,
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 4,
+      "missing_edge_count": 3,
       "graph_validated": false,
       "derived_node_count": 63,
       "missing_node_count": 0,
@@ -161935,11 +161876,6 @@
         {
           "from": "35500011",
           "to": "35500050",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "35500005",
-          "to": "35500004",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -206298,7 +206234,7 @@
       "from_meta": "LCBA:Lost City:Bank of the Lost City",
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 11,
+      "missing_edge_count": 10,
       "graph_validated": false,
       "derived_node_count": 235,
       "missing_node_count": 0,
@@ -206322,11 +206258,6 @@
         {
           "from": "3A700051",
           "to": "A2100041",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "3B900555",
-          "to": "E2400001",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -256269,7 +256200,7 @@
       "from_meta": "ORCM:Slums:Orc Mansion",
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 3,
+      "missing_edge_count": 2,
       "graph_validated": false,
       "derived_node_count": 27,
       "missing_node_count": 0,
@@ -256278,11 +256209,6 @@
         {
           "from": "62B00041",
           "to": "66E00051",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "84400041",
-          "to": "34900004",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -259209,7 +259135,7 @@
       "from_meta": "PUTA:Ocean:Putakwa",
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 9,
+      "missing_edge_count": 8,
       "graph_validated": false,
       "derived_node_count": 336,
       "missing_node_count": 0,
@@ -259223,11 +259149,6 @@
         {
           "from": "AE500050",
           "to": "DA200050",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "AE501004",
-          "to": "AE500400",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -271784,7 +271705,7 @@
       "from_meta": "RP18:Barren Hills:Storm Mountain, Rocky Path lev 18",
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 7,
+      "missing_edge_count": 6,
       "graph_validated": false,
       "derived_node_count": 189,
       "missing_node_count": 0,
@@ -271808,11 +271729,6 @@
         {
           "from": "E7011000",
           "to": "E7001400",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "E7004010",
-          "to": "E7040140",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -277457,18 +277373,12 @@
       "from_meta": "SCSQ:Scorching Desert:Sandstone Quarry",
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 1,
-      "graph_validated": false,
+      "missing_edge_count": 0,
+      "graph_validated": true,
       "derived_node_count": 75,
       "missing_node_count": 0,
       "missing_nodes": [],
-      "unconnected_edges": [
-        {
-          "from": "70E04100",
-          "to": "70E00100",
-          "reason": "no_direct_or_routed_edge"
-        }
-      ],
+      "unconnected_edges": [],
       "conditional_edge_count": 0,
       "conditional_edges": [],
       "manual_review": true,
@@ -298021,7 +297931,7 @@
       "from_meta": "SMH3:Darkwood Forest:Small Hill",
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 8,
+      "missing_edge_count": 7,
       "graph_validated": false,
       "derived_node_count": 116,
       "missing_node_count": 0,
@@ -298030,11 +297940,6 @@
         {
           "from": "F4E00410",
           "to": "F4E00041",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "F4E00410",
-          "to": "F4E04040",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -315913,7 +315818,7 @@
       "from_meta": "SMH3:Darkwood Forest:Small Hill",
       "to_meta": "DWFL:Darkwood Forest:Darkwood Forest, Lair",
       "validated_edges": false,
-      "missing_edge_count": 3,
+      "missing_edge_count": 2,
       "graph_validated": false,
       "derived_node_count": 19,
       "missing_node_count": 0,
@@ -315922,11 +315827,6 @@
         {
           "from": "F4E00410",
           "to": "F4E00041",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "F4E00410",
-          "to": "F4E04040",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -320589,18 +320489,12 @@
       "from_meta": "SPEC:Graveyard:Spectral Knight",
       "to_meta": "TOMB:Graveyard:Tomb Vault",
       "validated_edges": false,
-      "missing_edge_count": 1,
-      "graph_validated": false,
+      "missing_edge_count": 0,
+      "graph_validated": true,
       "derived_node_count": 41,
       "missing_node_count": 0,
       "missing_nodes": [],
-      "unconnected_edges": [
-        {
-          "from": "89500044",
-          "to": "89500050",
-          "reason": "no_direct_or_routed_edge"
-        }
-      ],
+      "unconnected_edges": [],
       "conditional_edge_count": 7,
       "conditional_edges": [
         {
@@ -348797,17 +348691,12 @@
       "from_meta": "TOMB:Graveyard:Tomb Vault",
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 20,
+      "missing_edge_count": 13,
       "graph_validated": false,
       "derived_node_count": 146,
       "missing_node_count": 0,
       "missing_nodes": [],
       "unconnected_edges": [
-        {
-          "from": "89500011",
-          "to": "89500050",
-          "reason": "no_direct_or_routed_edge"
-        },
         {
           "from": "89500011",
           "to": "12910055",
@@ -348816,16 +348705,6 @@
         {
           "from": "89500044",
           "to": "12910055",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "89500011",
-          "to": "89500050",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "89500005",
-          "to": "BFE00021",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -348834,18 +348713,8 @@
           "reason": "no_direct_or_routed_edge"
         },
         {
-          "from": "89500044",
-          "to": "89500050",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
           "from": "89500014",
           "to": "12910055",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "89500044",
-          "to": "89500050",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -348864,11 +348733,6 @@
           "reason": "no_direct_or_routed_edge"
         },
         {
-          "from": "89500011",
-          "to": "89500050",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
           "from": "89500041",
           "to": "12910055",
           "reason": "no_direct_or_routed_edge"
@@ -348876,11 +348740,6 @@
         {
           "from": "89500011",
           "to": "12910055",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "89500044",
-          "to": "89500050",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -350123,18 +349982,12 @@
       "from_meta": "TOMB:Graveyard:Tomb Vault",
       "to_meta": "SPEC:Graveyard:Spectral Knight",
       "validated_edges": false,
-      "missing_edge_count": 1,
-      "graph_validated": false,
+      "missing_edge_count": 0,
+      "graph_validated": true,
       "derived_node_count": 41,
       "missing_node_count": 0,
       "missing_nodes": [],
-      "unconnected_edges": [
-        {
-          "from": "89500011",
-          "to": "89500050",
-          "reason": "no_direct_or_routed_edge"
-        }
-      ],
+      "unconnected_edges": [],
       "conditional_edge_count": 7,
       "conditional_edges": [
         {
@@ -379532,30 +379385,15 @@
       "from_meta": "VWAS:Bear's BBS:Volcanic Wastelands",
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 32,
+      "missing_edge_count": 19,
       "graph_validated": false,
       "derived_node_count": 276,
       "missing_node_count": 0,
       "missing_nodes": [],
       "unconnected_edges": [
         {
-          "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
           "from": "B3600005",
           "to": "4BF00015",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
-          "to": "B3600044",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -379565,42 +379403,12 @@
         },
         {
           "from": "B3600005",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600014",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
           "to": "B3600015",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
-          "to": "B3600044",
           "reason": "no_direct_or_routed_edge"
         },
         {
           "from": "B3600050",
           "to": "B3600054",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
-          "to": "B3600044",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -379619,16 +379427,6 @@
           "reason": "no_direct_or_routed_edge"
         },
         {
-          "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
           "from": "B3600005",
           "to": "B3600054",
           "reason": "no_direct_or_routed_edge"
@@ -379640,22 +379438,12 @@
         },
         {
           "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600050",
           "to": "E8200010",
           "reason": "no_direct_or_routed_edge"
         },
         {
           "from": "E8200010",
           "to": "B3600050",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
-          "to": "B3600044",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -381267,7 +381055,7 @@
       "from_meta": "VWAS:Bear's BBS:Volcanic Wastelands",
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 23,
+      "missing_edge_count": 16,
       "graph_validated": false,
       "derived_node_count": 163,
       "missing_node_count": 0,
@@ -381315,22 +381103,12 @@
         },
         {
           "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600050",
           "to": "E8200010",
           "reason": "no_direct_or_routed_edge"
         },
         {
           "from": "E8200010",
           "to": "B3600050",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
-          "to": "B3600044",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -381345,16 +381123,6 @@
         },
         {
           "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600050",
           "to": "B3600054",
           "reason": "no_direct_or_routed_edge"
         },
@@ -381366,21 +381134,6 @@
         {
           "from": "B3600005",
           "to": "B3600054",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600041",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
-          "to": "B3600044",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -382357,17 +382110,12 @@
       "from_meta": "VWAS:Bear's BBS:Volcanic Wastelands",
       "to_meta": "THFS:Bear's BBS 2:Thay forest",
       "validated_edges": false,
-      "missing_edge_count": 2,
+      "missing_edge_count": 1,
       "graph_validated": false,
       "derived_node_count": 62,
       "missing_node_count": 0,
       "missing_nodes": [],
       "unconnected_edges": [
-        {
-          "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
         {
           "from": "B3600005",
           "to": "B3600015",
@@ -383514,7 +383262,7 @@
       "from_meta": null,
       "to_meta": null,
       "validated_edges": false,
-      "missing_edge_count": 2,
+      "missing_edge_count": 1,
       "graph_validated": false,
       "derived_node_count": 38,
       "missing_node_count": 0,
@@ -383523,11 +383271,6 @@
         {
           "from": "F4E00140",
           "to": "F4E04104",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "F4E01001",
-          "to": "F4F00404",
           "reason": "no_direct_or_routed_edge"
         }
       ],

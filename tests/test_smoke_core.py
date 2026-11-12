@@ -1,4 +1,4 @@
-import asyncio, tempfile
+import asyncio, json, tempfile
 from pathlib import Path
 
 from import_megamud import parse_mp
@@ -44,7 +44,21 @@ def test_recovery_unlock_on_prompt_and_p1_not_dropping_chunk():
 
 
 def test_resolver_and_fake_server_replay():
-    m = ApexForgeMapper(r"D:\ApexForge\database.json")
+    # Minimal, self-contained database so the test does not depend on
+    # D:\ApexForge\database.json existing at an absolute path.
+    tmpdb = Path(tempfile.mkdtemp()) / "database.json"
+    tmpdb.write_text(
+        json.dumps({"rooms": {
+            "1": {
+                "id": "1", "name": "The Grand Town Square", "zone": "town",
+                "exits": {"north": {"target": "2", "weight": 1.0}, "east": {"target": "3", "weight": 1.0}},
+            },
+            "2": {"id": "2", "name": "North Road", "zone": "town", "exits": {}},
+            "3": {"id": "3", "name": "East Road", "zone": "town", "exits": {}},
+        }}),
+        encoding="utf-8",
+    )
+    m = ApexForgeMapper(str(tmpdb))
     assert m.resolve_room("The Grand Town Square", ["north", "east"]) == "1"
 
     async def run():

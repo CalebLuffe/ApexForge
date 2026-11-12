@@ -821,6 +821,9 @@ class ApexForgeEngine:
     def set_state(self, new_state: str, reason: str = "") -> None:
         if new_state not in (STATE_NAVIGATING, STATE_COMBAT, STATE_RESTING, STATE_RECOVERY):
             return
+        if self.state == STATE_RECOVERY and getattr(self, "_recovery_until_prompt", False):
+            if new_state != STATE_RECOVERY:
+                return  # recovery locked: refuse combat/navigation/resting until prompt unlocks
         if self.state != new_state:
             old = self.state
             self.state = new_state

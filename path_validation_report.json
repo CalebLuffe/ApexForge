@@ -1,7 +1,7 @@
 {
   "total": 1809,
-  "valid": 1225,
-  "invalid": 584,
+  "valid": 1232,
+  "invalid": 577,
   "details": {
     "silver_mines_low": {
       "valid": true,
@@ -2782,11 +2782,6 @@
           "reason": "no_direct_or_routed_edge"
         },
         {
-          "from": "E7010010",
-          "to": "E7040140",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
           "from": "E7000410",
           "to": "E7001400",
           "reason": "no_direct_or_routed_edge"
@@ -2809,11 +2804,6 @@
         {
           "from": "E7011000",
           "to": "E7001400",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "E7004010",
-          "to": "E7040140",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -4689,15 +4679,9 @@
       "conditional_edges": []
     },
     "CRSTLOOP": {
-      "valid": false,
+      "valid": true,
       "missing_nodes": [],
-      "unconnected_edges": [
-        {
-          "from": "F2600055",
-          "to": "C9E00006",
-          "reason": "no_direct_or_routed_edge"
-        }
-      ],
+      "unconnected_edges": [],
       "conditional_edges": []
     },
     "Crumcata": {
@@ -5236,11 +5220,6 @@
         {
           "from": "F4E00140",
           "to": "F4E00414",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "F4E00104",
-          "to": "F4E04000",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -5810,11 +5789,6 @@
           "from": "F4E00140",
           "to": "F4E00414",
           "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "F4E00104",
-          "to": "F4E04000",
-          "reason": "no_direct_or_routed_edge"
         }
       ],
       "conditional_edges": []
@@ -5897,11 +5871,6 @@
         {
           "from": "F4E00410",
           "to": "F4E00041",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "F4E00410",
-          "to": "F4E04040",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -8116,27 +8085,15 @@
       "conditional_edges": []
     },
     "Faeretre": {
-      "valid": false,
+      "valid": true,
       "missing_nodes": [],
-      "unconnected_edges": [
-        {
-          "from": "84400144",
-          "to": "CB400005",
-          "reason": "no_direct_or_routed_edge"
-        }
-      ],
+      "unconnected_edges": [],
       "conditional_edges": []
     },
     "Faerfrut": {
-      "valid": false,
+      "valid": true,
       "missing_nodes": [],
-      "unconnected_edges": [
-        {
-          "from": "84400144",
-          "to": "CB404050",
-          "reason": "no_direct_or_routed_edge"
-        }
-      ],
+      "unconnected_edges": [],
       "conditional_edges": [
         {
           "from": "F7804010",
@@ -8148,15 +8105,9 @@
       ]
     },
     "Faernuts": {
-      "valid": false,
+      "valid": true,
       "missing_nodes": [],
-      "unconnected_edges": [
-        {
-          "from": "84400144",
-          "to": "CB400005",
-          "reason": "no_direct_or_routed_edge"
-        }
-      ],
+      "unconnected_edges": [],
       "conditional_edges": [
         {
           "from": "CB401001",
@@ -8505,11 +8456,6 @@
         {
           "from": "5AF04001",
           "to": "5AF04500",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "5AF04010",
-          "to": "5AF00500",
           "reason": "no_direct_or_routed_edge"
         }
       ],
@@ -10888,11 +10834,6 @@
       "unconnected_edges": [
         {
           "from": "F4E00005",
-          "to": "F4F00404",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "F4E00005",
           "to": "F4E04104",
           "reason": "no_direct_or_routed_edge"
         }
@@ -11680,11 +11621,6 @@
         {
           "from": "35500011",
           "to": "35500050",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "35500005",
-          "to": "35500004",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -16594,11 +16530,6 @@
           "reason": "no_direct_or_routed_edge"
         },
         {
-          "from": "3B900555",
-          "to": "E2400001",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
           "from": "61900051",
           "to": "11E00004",
           "reason": "no_direct_or_routed_edge"
@@ -19877,11 +19808,6 @@
           "reason": "no_direct_or_routed_edge"
         },
         {
-          "from": "84400041",
-          "to": "34900004",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
           "from": "B3D10010",
           "to": "04040004",
           "reason": "no_direct_or_routed_edge"
@@ -20065,11 +19991,6 @@
         {
           "from": "AE500050",
           "to": "DA200050",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "AE501004",
-          "to": "AE500400",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -21218,11 +21139,6 @@
           "reason": "no_direct_or_routed_edge"
         },
         {
-          "from": "E7004010",
-          "to": "E7040140",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
           "from": "E7011000",
           "to": "E7001400",
           "reason": "no_direct_or_routed_edge"
@@ -21690,15 +21606,9 @@
       "conditional_edges": []
     },
     "Scsqloop": {
-      "valid": false,
+      "valid": true,
       "missing_nodes": [],
-      "unconnected_edges": [
-        {
-          "from": "70E04100",
-          "to": "70E00100",
-          "reason": "no_direct_or_routed_edge"
-        }
-      ],
+      "unconnected_edges": [],
       "conditional_edges": []
     },
     "Scsqscmw": {
@@ -22849,11 +22759,6 @@
         {
           "from": "F4E00410",
           "to": "F4E00041",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "F4E00410",
-          "to": "F4E04040",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -25072,11 +24977,6 @@
           "reason": "no_direct_or_routed_edge"
         },
         {
-          "from": "F4E00410",
-          "to": "F4E04040",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
           "from": "F4E04001",
           "to": "F4E01004",
           "reason": "no_direct_or_routed_edge"
@@ -25364,15 +25264,9 @@
       "conditional_edges": []
     },
     "Spectomb": {
-      "valid": false,
+      "valid": true,
       "missing_nodes": [],
-      "unconnected_edges": [
-        {
-          "from": "89500044",
-          "to": "89500050",
-          "reason": "no_direct_or_routed_edge"
-        }
-      ],
+      "unconnected_edges": [],
       "conditional_edges": [
         {
           "from": "88220000",
@@ -27659,27 +27553,12 @@
       "unconnected_edges": [
         {
           "from": "89500011",
-          "to": "89500050",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "89500011",
           "to": "12910055",
           "reason": "no_direct_or_routed_edge"
         },
         {
           "from": "89500044",
           "to": "12910055",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "89500011",
-          "to": "89500050",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "89500005",
-          "to": "BFE00021",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -27688,18 +27567,8 @@
           "reason": "no_direct_or_routed_edge"
         },
         {
-          "from": "89500044",
-          "to": "89500050",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
           "from": "89500014",
           "to": "12910055",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "89500044",
-          "to": "89500050",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -27718,11 +27587,6 @@
           "reason": "no_direct_or_routed_edge"
         },
         {
-          "from": "89500011",
-          "to": "89500050",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
           "from": "89500041",
           "to": "12910055",
           "reason": "no_direct_or_routed_edge"
@@ -27730,11 +27594,6 @@
         {
           "from": "89500011",
           "to": "12910055",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "89500044",
-          "to": "89500050",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -27902,15 +27761,9 @@
       ]
     },
     "Tombspec": {
-      "valid": false,
+      "valid": true,
       "missing_nodes": [],
-      "unconnected_edges": [
-        {
-          "from": "89500011",
-          "to": "89500050",
-          "reason": "no_direct_or_routed_edge"
-        }
-      ],
+      "unconnected_edges": [],
       "conditional_edges": [
         {
           "from": "12910055",
@@ -29832,23 +29685,8 @@
       "missing_nodes": [],
       "unconnected_edges": [
         {
-          "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
           "from": "B3600005",
           "to": "4BF00015",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
-          "to": "B3600044",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -29858,42 +29696,12 @@
         },
         {
           "from": "B3600005",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600014",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
           "to": "B3600015",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
-          "to": "B3600044",
           "reason": "no_direct_or_routed_edge"
         },
         {
           "from": "B3600050",
           "to": "B3600054",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
-          "to": "B3600044",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -29912,16 +29720,6 @@
           "reason": "no_direct_or_routed_edge"
         },
         {
-          "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
           "from": "B3600005",
           "to": "B3600054",
           "reason": "no_direct_or_routed_edge"
@@ -29933,22 +29731,12 @@
         },
         {
           "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600050",
           "to": "E8200010",
           "reason": "no_direct_or_routed_edge"
         },
         {
           "from": "E8200010",
           "to": "B3600050",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
-          "to": "B3600044",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -30040,22 +29828,12 @@
         },
         {
           "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600050",
           "to": "E8200010",
           "reason": "no_direct_or_routed_edge"
         },
         {
           "from": "E8200010",
           "to": "B3600050",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
-          "to": "B3600044",
           "reason": "no_direct_or_routed_edge"
         },
         {
@@ -30070,16 +29848,6 @@
         },
         {
           "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600050",
           "to": "B3600054",
           "reason": "no_direct_or_routed_edge"
         },
@@ -30094,21 +29862,6 @@
           "reason": "no_direct_or_routed_edge"
         },
         {
-          "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600041",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "B3600005",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
           "from": "B3600005",
           "to": "B3600051",
           "reason": "no_direct_or_routed_edge"
@@ -30120,11 +29873,6 @@
       "valid": false,
       "missing_nodes": [],
       "unconnected_edges": [
-        {
-          "from": "B3600050",
-          "to": "B3600044",
-          "reason": "no_direct_or_routed_edge"
-        },
         {
           "from": "B3600005",
           "to": "B3600015",
@@ -30311,11 +30059,6 @@
         {
           "from": "F4E00140",
           "to": "F4E04104",
-          "reason": "no_direct_or_routed_edge"
-        },
-        {
-          "from": "F4E01001",
-          "to": "F4F00404",
           "reason": "no_direct_or_routed_edge"
         }
       ],
