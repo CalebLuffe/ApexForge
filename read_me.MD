@@ -32,20 +32,36 @@ ApexForge is a Python-based, terminal-focused MUD client/automation engine (Mega
 3. **Config/data**: ensure `profiles.json`, `paths.json`, `database.json`, `items.json` exist. `ultra_orchestrator.ps1` can provision minimal baseline files if missing (note: existing project data may be richer than baselines).
 
 ## How to use
-### Run headless engine
+### Launch the dashboard (single entry point)
 ```powershell
-python .\apexforge.py --profile <ProfileName> [--path <path_key> | --target <room_id>] [--host <host> --port <port>] [--no-connect] [--ipc-bus]
+python .\main.py
 ```
-- `--no-connect`: initialize subsystems without opening a MUD socket (offline/local).
-- `--ipc-bus`: start local coordination bus (default host/port from profile/config).
-- `--follower`: run as follower, connect to leader IPC bus for state/command sync and status reporting (`--leader-host/--leader-port` override profile).
+- Opens the **ApexForge Server Browser** (offline by default) showing your configured characters from `profiles.json`.
+- **Connect to an existing character**: click **Connect** on a character card to open a telnet socket to that character's `host:port` and run its configured BBS/login script automatically — all inside the dashboard.
+- **Telnet Quick Connect (manual)**: enter any host, port, and character name to connect to a MUD/BBS server across the internet (e.g. `omniversebbs.com:23`). No pre-configured profile required. The Primary Server Stream shows ALL telnet traffic — server text and client responses — in real time.
+- Once connected, the **Clean Classic MUD Layout** appears:
+  - **Main Output** (left, ~75%): dominates the screen, shows all telnet traffic with hardware ANSI colors. This is where you react to combat, room descriptions, and tells.
+  - **Status Bar** (compact, full width): HP/MANA bars, state, queue depth (Q: P1/P2/P3). Color-coded (green >60%, yellow 30–60%, blinking red <30%).
+  - **Command Input** (full width bottom): always focused and ready for typing. Prefix with `@` for admin/engine commands (e.g. `@status`, `@stop`).
+  - **Right Sidebar** (~25%): Mapper (ASCII map, room, exits) + Party/Chat telemetry. Toggle with `M` (mapper) and `C` (chat).
+- Press **Disconnect** (or `q`) to return to the server browser.
 
-### Run dashboard
+### Auto-connect a profile on launch
 ```powershell
-python .\main.py --profile <ProfileName> [--connect] [--path <path_key>] [--target <room_id>] [--ipc-bus]
+python .\main.py --profile Mofo --connect [--path <path_key> | --target <room_id>] [--ipc-bus]
 ```
-- Dashboard defaults to offline unless `--connect` is provided.
-- UI provides interactive controls: feature buttons and a command input to send raw commands or `@...` admin/engine commands (e.g. `@status`, `@path <key>`, `@route <room>`, `@stop`).
+- `--profile <name>`: character from `profiles.json` to connect.
+- `--connect`: open the telnet socket and run BBS login immediately (dashboard starts connected).
+- `--path`: start a configured path from `paths.json`.
+- `--target`: route to a target room id on start.
+- `--ipc-bus`: start the local coordination bus (leader/follower).
+
+### Run headless engine (no dashboard)
+```powershell
+python .\apexforge.py --profile <ProfileName> [--path <path_key> | --target <room_id>] [--host <host> --port <port>] [--no-connect] [--ipc-bus] [--follower --leader-host <h> --leader-port <p>]
+```
+- `--no-connect`: initialize subsystems without opening a telnet socket (offline/local).
+- `--follower`: run as follower, connect to leader IPC bus for state/command sync and status reporting.
 
 ### Orchestrator (Windows/PowerShell)
 ```powershell

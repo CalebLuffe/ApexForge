@@ -1403,7 +1403,7 @@ class ApexForgeEngine:
             self.emit_event("burden_drop", {"item_id": iid, "name": name, "load_ratio": round(load_ratio, 3)})
 
     # --- Admin / remote triggers ---
-    async def handle_admin_bus_command(self, msg: Dict[str, Any], writer: asyncio.StreamWriter) -> Optional[str]:
+    async def handle_admin_bus_command(self, msg: Dict[str, Any], writer: Optional[asyncio.StreamWriter] = None) -> Optional[str]:
         sender = str(msg.get("from", msg.get("sender", ""))).lower()
         text = str(msg.get("text", msg.get("command", ""))).strip()
         msg_type = str(msg.get("type", "")).lower()

@@ -38,7 +38,7 @@ class ApexForgeCoordinationBus:
                 headers={"Content-Type": "application/json"},
                 method="POST",
             )
-            await asyncio.to_thread(urllib.request.urlopen, req, 5)
+            await asyncio.to_thread(urllib.request.urlopen, req, timeout=5)
             print(f"[Webhook] Alert dispatched: {event_title}")
         except Exception as e:
             print(f"[-] Webhook delivery failure: {e}")
