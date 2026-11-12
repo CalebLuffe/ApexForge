@@ -393,28 +393,28 @@ def parse_mp(path_file):
         return key, None
 
     step_overrides = {}
-    move_edges = []  # (from,to,direction,action_type,conditional)
-    prev = None
-    for kind, rid, act, _ in seq:
-        if kind != "step":
+    move_edges = []  # edges inferred as (current_room --action--> next_room)
+    step_rows = [(rid, act) for kind, rid, act, _ in seq if kind == "step" and rid]
+    for i in range(len(step_rows) - 1):
+        a, act = step_rows[i]
+        b, _nact = step_rows[i + 1]
+        if not act or a == b:
             continue
-        if prev is not None and act:
-            action_type, conditional = _classify_step_action(act)
-            dir_norm = normalize_exit_name(act)
-            is_cardinal_move = (not conditional) and (dir_norm in DIRECTION_TOKENS or action_type == "move")
-            if conditional or action_type == "action" or not is_cardinal_move:
-                step_overrides[f"{prev}->{rid}"] = {
-                    "direction": act,
-                    "party_cmd": act if "@" in act else "",
-                    "pre_cmd": act if "@" not in act else "",
-                    "conditional_action": bool(conditional or action_type == "action"),
-                    "action_type": action_type,
-                }
-            if is_cardinal_move and prev != rid:
-                move_edges.append({"from": prev, "to": rid, "direction": dir_norm, "action": act, "conditional": False})
-            elif conditional or action_type == "action":
-                move_edges.append({"from": prev, "to": rid, "direction": act, "action": act, "conditional": True})
-        prev = rid
+        action_type, conditional = _classify_step_action(act)
+        dir_norm = normalize_exit_name(act)
+        is_cardinal_move = (not conditional) and (dir_norm in DIRECTION_TOKENS or action_type == "move")
+        if conditional or action_type == "action" or not is_cardinal_move:
+            step_overrides[f"{a}->{b}"] = {
+                "direction": act,
+                "party_cmd": act if "@" in act else "",
+                "pre_cmd": act if "@" not in act else "",
+                "conditional_action": bool(conditional or action_type == "action"),
+                "action_type": action_type,
+            }
+        if is_cardinal_move:
+            move_edges.append({"from": a, "to": b, "direction": dir_norm, "action": act, "conditional": False})
+        elif conditional or action_type == "action":
+            move_edges.append({"from": a, "to": b, "direction": act, "action": act, "conditional": True})
 
     cfg = {
         "name": name, "loop_nodes": loop_nodes, "zone_color_key": zone or "imported",

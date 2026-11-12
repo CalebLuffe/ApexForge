@@ -9,7 +9,7 @@ from navigation import ApexForgeMapper
 def test_parse_mp_keeps_plain_directions():
     tmp = Path(tempfile.mkdtemp())
     mp = tmp / "sample.mp"
-    # lines: at AAAA do w -> BBBB, at BBBB do nw -> CCCC, at CCCC do conditional
+    # MegaMUD .mp step: "<room>:...:<action>" means perform action at <room> to reach next room in sequence.
     mp.write_text(
         "[x]\n[ACCD:Arlysia:Arlysia, City Docks]\n[ARFL:Arlysia:White Forest, Landing]\n"
         "AAAA:0000:w\nBBBB:0000:nw\nCCCC:0000:@party buy skiff\n",
@@ -20,7 +20,7 @@ def test_parse_mp_keeps_plain_directions():
     moves = [(m["from"], m["to"], m["direction"], m["conditional"]) for m in cfg.get("move_edges", [])]
     assert ("AAAA", "BBBB", "w", False) in moves, moves
     assert ("BBBB", "CCCC", "nw", False) in moves, moves
-    assert any(m["conditional"] and m["from"] == "BBBB" and m["to"] == "CCCC" for m in cfg.get("move_edges", [])) or any(m["conditional"] and m["from"] == "CCCC" for m in cfg.get("move_edges", [])), moves
+    assert any(m.get("conditional") and m.get("from") == "CCCC" for m in cfg.get("move_edges", [])), moves
 
 
 def test_recovery_unlock_on_prompt_and_p1_not_dropping_chunk():
@@ -38,7 +38,7 @@ def test_recovery_unlock_on_prompt_and_p1_not_dropping_chunk():
         eng2.add_event_listener(lambda e, _: ev.append(e))
         await eng2._process_stream_chunk("You are stunned!\nThe goblin hits you.\n")
         assert eng2.state == STATE_RECOVERY, eng2.state
-        assert any(e.get("type") == "stream" and "goblin hits you" in (e.get("payload") or {}).get("line", "") for e in ev), ev
+        assert any(e.get("type") == "stream" and "goblin hits you" in ((e.get("payload") or {}).get("line", "")) for e in ev), ev
 
     asyncio.run(run())
 
