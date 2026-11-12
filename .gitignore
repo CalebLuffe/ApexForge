@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Local/temp
+_tmp_*.py
+_smoke_*.py
+_patch_*.py
+*.bak
+*.tmp
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets / local imports (review before committing)
+profiles.imported.json
+messages.imported.json
+*.imported.json
+.env

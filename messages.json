@@ -1,0 +1,3869 @@
+{
+  "messages": [
+    {
+      "name": "1 life left",
+      "flags": "0000",
+      "patterns": [
+        "You have 1 lives left."
+      ]
+    },
+    {
+      "name": "2 lives left",
+      "flags": "0000",
+      "patterns": [
+        "You have 2 lives left."
+      ]
+    },
+    {
+      "name": "acid hits",
+      "flags": "0000",
+      "patterns": [
+        "Acid burns {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "acid hits",
+      "flags": "0000",
+      "patterns": [
+        "Acid sears {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "acid rain",
+      "flags": "0000",
+      "patterns": [
+        "Acid rain pours down upon your foe!"
+      ]
+    },
+    {
+      "name": "acid rain",
+      "flags": "0008",
+      "patterns": [
+        "You are covered in acid",
+        "The acid covering you dries up"
+      ]
+    },
+    {
+      "name": "Afraid",
+      "flags": "2002",
+      "patterns": [
+        "You are too afraid to do that!"
+      ]
+    },
+    {
+      "name": "alertness",
+      "flags": "0000",
+      "patterns": [
+        "You feel perceptive",
+        "The effects of alertness wear off"
+      ]
+    },
+    {
+      "name": "angelic halo",
+      "flags": "0000",
+      "patterns": [
+        "A halo appears over your head!",
+        "Your halo vanishes"
+      ]
+    },
+    {
+      "name": "arcane tome incantation",
+      "flags": "0200",
+      "patterns": [
+        "You have memorized an arcane incantation",
+        "The arcane incantation slips from memory"
+      ]
+    },
+    {
+      "name": "area flesh-eater",
+      "flags": "0000",
+      "patterns": [
+        "Your flesh is dissolved, causing {target} {dmg} damage!"
+      ]
+    },
+    {
+      "name": "arrow trap",
+      "flags": "0000",
+      "patterns": [
+        "An arrow shoots out of the door and strikes {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "ashwood wand",
+      "flags": "0000",
+      "patterns": [
+        "You feel VERY lucky!",
+        "The effects of greater bless wear off."
+      ]
+    },
+    {
+      "name": "balanced sight",
+      "flags": "0000",
+      "patterns": [
+        "You have the clarity of an ordered mind.",
+        "The clarity has vanished"
+      ]
+    },
+    {
+      "name": "banish",
+      "flags": "0004",
+      "patterns": [
+        "You are afflicted by teleportation sickness",
+        "The teleportation sickness wears off"
+      ]
+    },
+    {
+      "name": "banshee's wail",
+      "flags": "0002",
+      "patterns": [
+        "You are deathly afraid",
+        "You don't feel quite so afraid anymore"
+      ]
+    },
+    {
+      "name": "barbskin",
+      "flags": "0000",
+      "patterns": [
+        "Iron spikes protrude from your skin!",
+        "Your skin returns to normal"
+      ]
+    },
+    {
+      "name": "barkskin",
+      "flags": "0000",
+      "patterns": [
+        "You feel tough",
+        "The effects of barkskin wear off"
+      ]
+    },
+    {
+      "name": "bee honey",
+      "flags": "0000",
+      "patterns": [
+        "You feel a surge of power run through you",
+        "The surge of power fades"
+      ]
+    },
+    {
+      "name": "bee poison",
+      "flags": "0004",
+      "patterns": [
+        "You feel VERY sick",
+        "The effects of the poison wear off"
+      ]
+    },
+    {
+      "name": "belt of might",
+      "flags": "0000",
+      "patterns": [
+        "You feel strong",
+        "Your enhanced strength wears off"
+      ]
+    },
+    {
+      "name": "birch rod",
+      "flags": "0080",
+      "patterns": [
+        "You are regenerating quickly!",
+        "You stop regenerating."
+      ]
+    },
+    {
+      "name": "bites",
+      "flags": "0004",
+      "patterns": [
+        "Poison burns through your veins",
+        "The effects of the poison wear off"
+      ]
+    },
+    {
+      "name": "black curse",
+      "flags": "0001",
+      "patterns": [
+        "A black curse is upon you",
+        "Your vision returns to normal"
+      ]
+    },
+    {
+      "name": "black orb",
+      "flags": "0010",
+      "patterns": [
+        "Your legs are petrified",
+        "Your legs return to normal"
+      ]
+    },
+    {
+      "name": "black wind",
+      "flags": "0000",
+      "patterns": [
+        "A black wind sweeps throughout the room!"
+      ]
+    },
+    {
+      "name": "blackwod forest sounds",
+      "flags": "0000",
+      "patterns": [
+        "A sudden burst of wind blows down upon you."
+      ]
+    },
+    {
+      "name": "blackwood forest sounds",
+      "flags": "0000",
+      "patterns": [
+        "Some great beast howls in the"
+      ]
+    },
+    {
+      "name": "blackwood forest sounds",
+      "flags": "0000",
+      "patterns": [
+        "The trees creak towards you, almost with an awful yearning."
+      ]
+    },
+    {
+      "name": "blackwood forest sounds",
+      "flags": "0000",
+      "patterns": [
+        "A strange gurgling is heard close by."
+      ]
+    },
+    {
+      "name": "blackwood forest sounds",
+      "flags": "0000",
+      "patterns": [
+        "The bitter scent of evil is rich in the air."
+      ]
+    },
+    {
+      "name": "blackwood forest sounds",
+      "flags": "0000",
+      "patterns": [
+        "You hear faint whispering behind you."
+      ]
+    },
+    {
+      "name": "blackwood staff",
+      "flags": "0000",
+      "patterns": [
+        "Your blackwood staff sucks the life from {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "blade trap",
+      "flags": "0000",
+      "patterns": [
+        "A blade sweeps out and slices {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "bladed sphere",
+      "flags": "0000",
+      "patterns": [
+        "You are surrounded by a sphere of blades!",
+        "Your sphere disappears into thin air"
+      ]
+    },
+    {
+      "name": "bleeding",
+      "flags": "0008",
+      "patterns": [
+        "You are bleeding from an unholy wound",
+        "The unholy wound closes up"
+      ]
+    },
+    {
+      "name": "bless",
+      "flags": "0000",
+      "patterns": [
+        "You feel lucky",
+        "The effects of bless wear off"
+      ]
+    },
+    {
+      "name": "blight",
+      "flags": "0000",
+      "patterns": [
+        "You feel unlucky",
+        "The effects of curse wear off"
+      ]
+    },
+    {
+      "name": "blind",
+      "flags": "0001",
+      "patterns": [
+        "You are blind",
+        "You can see again"
+      ]
+    },
+    {
+      "name": "blinding light",
+      "flags": "0001",
+      "patterns": [
+        "You are struck blind",
+        "You can see again"
+      ]
+    },
+    {
+      "name": "blizzard",
+      "flags": "0000",
+      "patterns": [
+        "A storm of freezing hail smashes your foes for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "blizzard",
+      "flags": "0000",
+      "patterns": [
+        "A storm of freezing hail smashes {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "blood ritual",
+      "flags": "0000",
+      "patterns": [
+        "You are affected by a blood ritual",
+        "The effects of the blood ritual wear off"
+      ]
+    },
+    {
+      "name": "blur",
+      "flags": "0000",
+      "patterns": [
+        "You are blurred",
+        "The effects of blur wear off"
+      ]
+    },
+    {
+      "name": "brain eater",
+      "flags": "1400",
+      "patterns": [
+        "and a small creature leaps out!"
+      ]
+    },
+    {
+      "name": "breathes",
+      "flags": "0001",
+      "patterns": [
+        "You are blind",
+        "The effects of the mummy's breath wears off"
+      ]
+    },
+    {
+      "name": "burn hits",
+      "flags": "0000",
+      "patterns": [
+        "{target} are burned for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "burn hits",
+      "flags": "0000",
+      "patterns": [
+        "{target} is burned for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "burning",
+      "flags": "0008",
+      "patterns": [
+        "You are on fire",
+        "The flames scorching you die down"
+      ]
+    },
+    {
+      "name": "burning death",
+      "flags": "0008",
+      "patterns": [
+        "You are on fire",
+        "The flames enveloping you die down"
+      ]
+    },
+    {
+      "name": "camouflage",
+      "flags": "0000",
+      "patterns": [
+        "You are covered in magical camouflage!",
+        "The magic camouflage fades away!"
+      ]
+    },
+    {
+      "name": "Cancel FUgram",
+      "flags": "0000",
+      "patterns": [
+        "Would you like to forward your /P to an FUgram?"
+      ]
+    },
+    {
+      "name": "cedar rod",
+      "flags": "0000",
+      "patterns": [
+        "You feel fast!",
+        "You slow down."
+      ]
+    },
+    {
+      "name": "chain",
+      "flags": "0010",
+      "patterns": [
+        "You are caught in a chain!",
+        "You get back on your feet."
+      ]
+    },
+    {
+      "name": "chant",
+      "flags": "0000",
+      "patterns": [
+        "You feel lucky",
+        "The effects of bless wear off"
+      ]
+    },
+    {
+      "name": "chaos shield",
+      "flags": "0000",
+      "patterns": [
+        "You are surrounded by a chaos shield",
+        "The chaos shield fizzles out"
+      ]
+    },
+    {
+      "name": "chaos storm",
+      "flags": "0000",
+      "patterns": [
+        "A chaotic storm assaults {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "chaos surge",
+      "flags": "0000",
+      "patterns": [
+        "Chaotic energy surrounds your being!",
+        "The chaotic energy fades away"
+      ]
+    },
+    {
+      "name": "chase (alley)",
+      "flags": "4000",
+      "patterns": [
+        "{target} slips into the dangerous black alley."
+      ]
+    },
+    {
+      "name": "chase (alley)",
+      "flags": "4000",
+      "patterns": [
+        "{target} slips into the dark alley."
+      ]
+    },
+    {
+      "name": "chase (black gem)",
+      "flags": "4000",
+      "patterns": [
+        "{target} touches the black gem, and is consumed in a crackling field of"
+      ]
+    },
+    {
+      "name": "chase (burnt stump)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs through the hole in the burnt stump."
+      ]
+    },
+    {
+      "name": "chase (bushes)",
+      "flags": "4000",
+      "patterns": [
+        "{target} pushes through the bushes!"
+      ]
+    },
+    {
+      "name": "chase (bushes)",
+      "flags": "4000",
+      "patterns": [
+        "{target} squeezes into the opening under the bushes."
+      ]
+    },
+    {
+      "name": "chase (climb)",
+      "flags": "4000",
+      "patterns": [
+        "{target} grasps onto some of the vines, and begins to climb!"
+      ]
+    },
+    {
+      "name": "chase (crack)",
+      "flags": "4000",
+      "patterns": [
+        "{target} walks into the wide crack."
+      ]
+    },
+    {
+      "name": "chase (darkwood ring)",
+      "flags": "4000",
+      "patterns": [
+        "{target} rubs a darkwood ring, and is swept through the arch!"
+      ]
+    },
+    {
+      "name": "chase (down)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs down to a lower ledge with the aid of a climbing harness."
+      ]
+    },
+    {
+      "name": "chase (down)",
+      "flags": "4000",
+      "patterns": [
+        "{target} descends the steps encircling the ancient silverwood tree."
+      ]
+    },
+    {
+      "name": "chase (down)",
+      "flags": "4000",
+      "patterns": [
+        "{target} starts down the slope, but slips and slides down!"
+      ]
+    },
+    {
+      "name": "chase (down)",
+      "flags": "4000",
+      "patterns": [
+        "{target} steps onto the slope and begins to slide down uncontrollably!"
+      ]
+    },
+    {
+      "name": "chase (float)",
+      "flags": "4000",
+      "patterns": [
+        "{target} drinks a bubbling white potion, and begins to float upwards!"
+      ]
+    },
+    {
+      "name": "chase (hole)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs down through the hole."
+      ]
+    },
+    {
+      "name": "chase (hole)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs into a hole."
+      ]
+    },
+    {
+      "name": "chase (hole)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs into the hole in the ceiling!"
+      ]
+    },
+    {
+      "name": "chase (hole)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs into the small hole in the hillside."
+      ]
+    },
+    {
+      "name": "chase (hole)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs out of the small hole in the hillside!"
+      ]
+    },
+    {
+      "name": "chase (hole)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs out through the hole to the south."
+      ]
+    },
+    {
+      "name": "chase (hole)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs out through the hole."
+      ]
+    },
+    {
+      "name": "chase (hole)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs through a hole in the wall!"
+      ]
+    },
+    {
+      "name": "chase (hole)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs through the slimy hole."
+      ]
+    },
+    {
+      "name": "chase (hole)",
+      "flags": "4000",
+      "patterns": [
+        "{target} crawls into the largest hole in the avalanche of stone."
+      ]
+    },
+    {
+      "name": "chase (hole)",
+      "flags": "4000",
+      "patterns": [
+        "{target} pushes through the tentacles and into the hole."
+      ]
+    },
+    {
+      "name": "chase (jump)",
+      "flags": "4000",
+      "patterns": [
+        "{target} steps back, starts running to the east, and makes a mighty leap!"
+      ]
+    },
+    {
+      "name": "chase (jump)",
+      "flags": "4000",
+      "patterns": [
+        "{target} steps back, starts running to the north, and makes a mighty leap!"
+      ]
+    },
+    {
+      "name": "chase (jump)",
+      "flags": "4000",
+      "patterns": [
+        "{target} steps back, starts running to the south, and makes a mighty leap!"
+      ]
+    },
+    {
+      "name": "chase (jump)",
+      "flags": "4000",
+      "patterns": [
+        "{target} steps back, starts running to the west, and makes a mighty leap!"
+      ]
+    },
+    {
+      "name": "chase (lake)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs out of the water."
+      ]
+    },
+    {
+      "name": "chase (lake)",
+      "flags": "4000",
+      "patterns": [
+        "{target} steps into the water at the lake's edge and dives beneath the ice!"
+      ]
+    },
+    {
+      "name": "chase (lever)",
+      "flags": "4000",
+      "patterns": [
+        "{target} pulls the lever, and falls through a trapdoor!"
+      ]
+    },
+    {
+      "name": "chase (lever)",
+      "flags": "4000",
+      "patterns": [
+        "{target} pulls the lever, and steps through the gate."
+      ]
+    },
+    {
+      "name": "chase (manhole)",
+      "flags": "4000",
+      "patterns": [
+        "{target} enters a manhole in the ground!"
+      ]
+    },
+    {
+      "name": "chase (manhole)",
+      "flags": "4000",
+      "patterns": [
+        "{target} squeezes into the dark space beneath the manhole."
+      ]
+    },
+    {
+      "name": "chase (moat)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs out of the filthy moat."
+      ]
+    },
+    {
+      "name": "chase (moat)",
+      "flags": "4000",
+      "patterns": [
+        "{target} dives into the black waters of the moat!"
+      ]
+    },
+    {
+      "name": "chase (moat)",
+      "flags": "4000",
+      "patterns": [
+        "{target} jumps into the filthy black waters of the moat."
+      ]
+    },
+    {
+      "name": "chase (mountain stair)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs down the mountain stair."
+      ]
+    },
+    {
+      "name": "chase (mountain stair)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs up the mountain stair."
+      ]
+    },
+    {
+      "name": "chase (path)",
+      "flags": "4000",
+      "patterns": [
+        "{target} follows a hidden path!"
+      ]
+    },
+    {
+      "name": "chase (path)",
+      "flags": "4000",
+      "patterns": [
+        "{target} pushes through the bushes, and walks onto a concealed path."
+      ]
+    },
+    {
+      "name": "chase (path)",
+      "flags": "4000",
+      "patterns": [
+        "{target} shoves aside the foliage, and disappears among the trees."
+      ]
+    },
+    {
+      "name": "chase (path)",
+      "flags": "4000",
+      "patterns": [
+        "{target} steps onto the side-path and quickly vanishes from view."
+      ]
+    },
+    {
+      "name": "chase (portal)",
+      "flags": "4000",
+      "patterns": [
+        "{target} enters the crimson portal and vanishes!"
+      ]
+    },
+    {
+      "name": "chase (portal)",
+      "flags": "4000",
+      "patterns": [
+        "{target} enters the ebony portal and vanishes!"
+      ]
+    },
+    {
+      "name": "chase (portal)",
+      "flags": "4000",
+      "patterns": [
+        "{target} enters the golden portal and vanishes!"
+      ]
+    },
+    {
+      "name": "chase (portal)",
+      "flags": "4000",
+      "patterns": [
+        "{target} steps into the dark portal, and vanishes!"
+      ]
+    },
+    {
+      "name": "chase (portal)",
+      "flags": "4000",
+      "patterns": [
+        "{target} steps into the portal, and disappears!"
+      ]
+    },
+    {
+      "name": "chase (portal)",
+      "flags": "4000",
+      "patterns": [
+        "{target} steps through the shimmering portal, and vanishes!"
+      ]
+    },
+    {
+      "name": "chase (portal)",
+      "flags": "4000",
+      "patterns": [
+        "{target} steps through the swirling portal."
+      ]
+    },
+    {
+      "name": "chase (skiff)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs into a boat, and rows off across the river."
+      ]
+    },
+    {
+      "name": "chase (skiff)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs into one of the skiffs, and rows out into the river."
+      ]
+    },
+    {
+      "name": "chase (skiff)",
+      "flags": "4000",
+      "patterns": [
+        "{target} hops into one of the boats, and begins to row out across the river."
+      ]
+    },
+    {
+      "name": "chase (skiff)",
+      "flags": "4000",
+      "patterns": [
+        "{target} hops into one of the skiffs, and rows away."
+      ]
+    },
+    {
+      "name": "chase (skiff)",
+      "flags": "4000",
+      "patterns": [
+        "{target} rows a skiff north, up to the shore."
+      ]
+    },
+    {
+      "name": "chase (skiff)",
+      "flags": "4000",
+      "patterns": [
+        "{target} rows a skiff south, up to the Silvermere docks."
+      ]
+    },
+    {
+      "name": "chase (skiff)",
+      "flags": "4000",
+      "patterns": [
+        "{target} rows a wooden skiff to the east."
+      ]
+    },
+    {
+      "name": "chase (skiff)",
+      "flags": "4000",
+      "patterns": [
+        "{target} rows a wooden skiff to the north."
+      ]
+    },
+    {
+      "name": "chase (skiff)",
+      "flags": "4000",
+      "patterns": [
+        "{target} rows a wooden skiff to the northeast."
+      ]
+    },
+    {
+      "name": "chase (skiff)",
+      "flags": "4000",
+      "patterns": [
+        "{target} rows a wooden skiff to the northwest."
+      ]
+    },
+    {
+      "name": "chase (skiff)",
+      "flags": "4000",
+      "patterns": [
+        "{target} rows a wooden skiff to the south."
+      ]
+    },
+    {
+      "name": "chase (skiff)",
+      "flags": "4000",
+      "patterns": [
+        "{target} rows a wooden skiff to the southeast."
+      ]
+    },
+    {
+      "name": "chase (skiff)",
+      "flags": "4000",
+      "patterns": [
+        "{target} rows a wooden skiff to the southwest."
+      ]
+    },
+    {
+      "name": "chase (skiff)",
+      "flags": "4000",
+      "patterns": [
+        "{target} rows a wooden skiff to the west."
+      ]
+    },
+    {
+      "name": "chase (stone altar)",
+      "flags": "4000",
+      "patterns": [
+        "{target} touches the hideous stone altar."
+      ]
+    },
+    {
+      "name": "chase (tree)",
+      "flags": "4000",
+      "patterns": [
+        "{target} carefully begins to climb down."
+      ]
+    },
+    {
+      "name": "chase (tree)",
+      "flags": "4000",
+      "patterns": [
+        "{target} grasps onto a branch of the tree, and climbs upwards."
+      ]
+    },
+    {
+      "name": "chase (tree)",
+      "flags": "4000",
+      "patterns": [
+        "{target} jumps and grabs onto a low branch, and begins to climb the tree."
+      ]
+    },
+    {
+      "name": "chase (up)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs the steps encircling the ancient silverwood tree."
+      ]
+    },
+    {
+      "name": "chase (up)",
+      "flags": "4000",
+      "patterns": [
+        "{target} climbs up through the filthy pipe."
+      ]
+    },
+    {
+      "name": "chase (vines)",
+      "flags": "4000",
+      "patterns": [
+        "{target} swings over the edge of the cliff, and climbs down the vines!"
+      ]
+    },
+    {
+      "name": "chase (vortex)",
+      "flags": "4000",
+      "patterns": [
+        "{target} steps into the swirling vortex, and vanishes in a flash!"
+      ]
+    },
+    {
+      "name": "chase (wall)",
+      "flags": "4000",
+      "patterns": [
+        "{target} walks through the wall to the east!"
+      ]
+    },
+    {
+      "name": "chase (wall)",
+      "flags": "4000",
+      "patterns": [
+        "{target} walks through the wall to the west!"
+      ]
+    },
+    {
+      "name": "chase (warehouse)",
+      "flags": "4000",
+      "patterns": [
+        "The chains snap, and {target} slips inside the warehouse."
+      ]
+    },
+    {
+      "name": "chase (waterfall)",
+      "flags": "4000",
+      "patterns": [
+        "{target} walks through the waterfall!"
+      ]
+    },
+    {
+      "name": "chase (willow)",
+      "flags": "4000",
+      "patterns": [
+        "{target} gingerly steps inside the cracked willow."
+      ]
+    },
+    {
+      "name": "cloak of faith",
+      "flags": "0000",
+      "patterns": [
+        "You feel the power of the gods touch your body!",
+        "The blessing fades away!"
+      ]
+    },
+    {
+      "name": "cloud of spores",
+      "flags": "0002",
+      "patterns": [
+        "You are plagued by horrible hallucinations",
+        "The awful hallucinations slowly die off"
+      ]
+    },
+    {
+      "name": "cold flame",
+      "flags": "0000",
+      "patterns": [
+        "{target} are seared by cold flame for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "cold hits",
+      "flags": "0000",
+      "patterns": [
+        "{target} are chilled for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "cold hits",
+      "flags": "0000",
+      "patterns": [
+        "{target} is chilled for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "combat fury",
+      "flags": "0000",
+      "patterns": [
+        "You are consumed by a berserker fury",
+        "The berserker fury consuming you subsides"
+      ]
+    },
+    {
+      "name": "combust",
+      "flags": "0000",
+      "patterns": [
+        "{target} combust for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "confusion",
+      "flags": "0002",
+      "patterns": [
+        "You are confused",
+        "The effects of confusion wear off"
+      ]
+    },
+    {
+      "name": "constriction",
+      "flags": "0010",
+      "patterns": [
+        "You are being constricted by a magical serpent",
+        "The serpent shrivels up and falls away",
+        "constriction:0012:2:",
+        "You are caught in a snakes coils.",
+        "The constrictor releases its grasp.",
+        "constriction:0012:2:",
+        "You are caught in the snakes coils.",
+        "The constrictor releases its grasp."
+      ]
+    },
+    {
+      "name": "convulsions",
+      "flags": "2000",
+      "patterns": [
+        "You look around stupidly and do nothing!"
+      ]
+    },
+    {
+      "name": "convulsions",
+      "flags": "0002",
+      "patterns": [
+        "You are in convulsions!",
+        "Your body returns to normal."
+      ]
+    },
+    {
+      "name": "corrosion",
+      "flags": "0000",
+      "patterns": [
+        "You feel vulnerable",
+        "You feel safer now"
+      ]
+    },
+    {
+      "name": "creature illusion",
+      "flags": "0002",
+      "patterns": [
+        "You are distracted by illusionary attackers",
+        "Without a sound: the illusionary attackers vanish"
+      ]
+    },
+    {
+      "name": "creeping doom",
+      "flags": "0008",
+      "patterns": [
+        "You are covered in deadly insects",
+        "The insects biting and stinging you die off"
+      ]
+    },
+    {
+      "name": "crimson bracers",
+      "flags": "0000",
+      "patterns": [
+        "A blazing inferno sears {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "cross of vengeance",
+      "flags": "0000",
+      "patterns": [
+        "You are surrounded by a brilliant light",
+        "The light from the Cross of Vengeance winks out"
+      ]
+    },
+    {
+      "name": "curse",
+      "flags": "0000",
+      "patterns": [
+        "You feel unlucky",
+        "The effects of curse wear off"
+      ]
+    },
+    {
+      "name": "curved black dagger",
+      "flags": "0000",
+      "patterns": [
+        "The dagger drains {target} of life for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "damn",
+      "flags": "0000",
+      "patterns": [
+        "You are damned!",
+        "The malaise of your soul has lifted"
+      ]
+    },
+    {
+      "name": "dancing blades",
+      "flags": "0000",
+      "patterns": [
+        "Dancing blades slice the foe for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "dark plague",
+      "flags": "0008",
+      "patterns": [
+        "A plague is consuming your flesh!",
+        "The plague has left your ravaged body"
+      ]
+    },
+    {
+      "name": "dark transfusion",
+      "flags": "0000",
+      "patterns": [
+        "You are filled with a feeling of grace.",
+        "The feeling subsides"
+      ]
+    },
+    {
+      "name": "darkbane",
+      "flags": "0000",
+      "patterns": [
+        "{target} is purified with divine power for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "Darkbane",
+      "flags": "0000",
+      "patterns": [
+        "{target} is purified with divine power for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "darkwood forest sounds",
+      "flags": "0000",
+      "patterns": [
+        "The leaves begin to rustle, as if some beast were about to spring forth!"
+      ]
+    },
+    {
+      "name": "death chicken",
+      "flags": "0000",
+      "patterns": [
+        "A deathly shriek announces an evil prescence!"
+      ]
+    },
+    {
+      "name": "deaths shadow",
+      "flags": "0000",
+      "patterns": [
+        "A small throwing knife hits {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "deaths shadow",
+      "flags": "0000",
+      "patterns": [
+        "You throw a small knife at {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "deathtouch",
+      "flags": "0000",
+      "patterns": [
+        "Dark energy drains {target} of life for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "desert damage",
+      "flags": "0000",
+      "patterns": [
+        "You suffer in the desert heat..."
+      ]
+    },
+    {
+      "name": "desert sounds",
+      "flags": "0000",
+      "patterns": [
+        "The howl of some awful beast can be heard far over the dunes."
+      ]
+    },
+    {
+      "name": "disease",
+      "flags": "0008",
+      "patterns": [
+        "You are diseased",
+        "The disease dies down"
+      ]
+    },
+    {
+      "name": "divine courage",
+      "flags": "0000",
+      "patterns": [
+        "You feel very courageous!",
+        "You begin to feel less courageous."
+      ]
+    },
+    {
+      "name": "divine disfavour",
+      "flags": "0000",
+      "patterns": [
+        "You feel EXTREMELY unlucky",
+        "The effects of divine disfavour wear off"
+      ]
+    },
+    {
+      "name": "divine favour",
+      "flags": "0000",
+      "patterns": [
+        "You feel EXTREMELY lucky",
+        "The effects of divine favour wear off"
+      ]
+    },
+    {
+      "name": "dragonblades",
+      "flags": "0000",
+      "patterns": [
+        "A blazing firestorm burns through {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "dragonclaw staff",
+      "flags": "0000",
+      "patterns": [
+        "Blue lightning streaks among your foes for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "dragonclaw staff",
+      "flags": "0000",
+      "patterns": [
+        "Blue lightning streaks out and sears {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "dragonfire",
+      "flags": "0000",
+      "patterns": [
+        "A withering blast of dragonfire sears {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "eagle helm",
+      "flags": "0000",
+      "patterns": [
+        "Your eyes are tingling",
+        "Your awareness returns to normal"
+      ]
+    },
+    {
+      "name": "earthbind",
+      "flags": "0000",
+      "patterns": [
+        "Your energies are bound to the earth!",
+        "Your energies flow unbound"
+      ]
+    },
+    {
+      "name": "earthquake",
+      "flags": "0000",
+      "patterns": [
+        "An earthquake rocks {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "ebony kris",
+      "flags": "0000",
+      "patterns": [
+        "{target} take {dmg} damage from the venom!"
+      ]
+    },
+    {
+      "name": "ebony kris",
+      "flags": "0000",
+      "patterns": [
+        "{target} takes {dmg} damage from the venom!"
+      ]
+    },
+    {
+      "name": "elemental fury",
+      "flags": "0000",
+      "patterns": [
+        "Fire burns {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "elemental fury",
+      "flags": "0000",
+      "patterns": [
+        "Ice freezes {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "elemental fury",
+      "flags": "0000",
+      "patterns": [
+        "Lighting strikes {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "elemental fury",
+      "flags": "0000",
+      "patterns": [
+        "Lightning strikes {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "elemental fury",
+      "flags": "0000",
+      "patterns": [
+        "Shards of stone slice {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "embroidered black gauntlets",
+      "flags": "0000",
+      "patterns": [
+        "Dark energy sears {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "emerald-tipped crozier",
+      "flags": "0000",
+      "patterns": [
+        "You are protected by divine power",
+        "You feel vulnerable"
+      ]
+    },
+    {
+      "name": "engulf in flame",
+      "flags": "0008",
+      "patterns": [
+        "You are engulfed in flames",
+        "The flames enveloping you die down"
+      ]
+    },
+    {
+      "name": "engulfs",
+      "flags": "0010",
+      "patterns": [
+        "You are engulfed",
+        "You are freed"
+      ]
+    },
+    {
+      "name": "entangle",
+      "flags": "0010",
+      "patterns": [
+        "You are entangled",
+        "The effects of entangle wear off",
+        "entangle:0010:2:",
+        "Your feet are incased in coral!",
+        "You can move again!"
+      ]
+    },
+    {
+      "name": "ethereal shield",
+      "flags": "0000",
+      "patterns": [
+        "You feel protected",
+        "The effects of ethereal shield wear off"
+      ]
+    },
+    {
+      "name": "excorcism",
+      "flags": "0000",
+      "patterns": [
+        "A brilliant beam zaps {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "explosion",
+      "flags": "0000",
+      "patterns": [
+        "An explosion rocks {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "faithkeeper",
+      "flags": "0000",
+      "patterns": [
+        "You feel the gods power manifest within you!",
+        "The guidance fades!"
+      ]
+    },
+    {
+      "name": "fear",
+      "flags": "0010",
+      "patterns": [
+        "You are afraid",
+        "The effects of fear wear off"
+      ]
+    },
+    {
+      "name": "feeblemind",
+      "flags": "0000",
+      "patterns": [
+        "You feel moronic",
+        "You feel your intelligence return"
+      ]
+    },
+    {
+      "name": "fire shield",
+      "flags": "0000",
+      "patterns": [
+        "You feel resistant to fire",
+        "The effects of resist fire wear off"
+      ]
+    },
+    {
+      "name": "fire trap",
+      "flags": "0000",
+      "patterns": [
+        "A jet of flame blasts forth and scorches {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "fireball",
+      "flags": "0000",
+      "patterns": [
+        "{target} take {dmg} damage from the explosion!"
+      ]
+    },
+    {
+      "name": "flametongue",
+      "flags": "0000",
+      "patterns": [
+        "{target} take {dmg} fire damage!"
+      ]
+    },
+    {
+      "name": "flametongue",
+      "flags": "0000",
+      "patterns": [
+        "{target} takes {dmg} fire damage!"
+      ]
+    },
+    {
+      "name": "flay",
+      "flags": "0004",
+      "patterns": [
+        "flays you viciously",
+        "The effects of the poison wear off"
+      ]
+    },
+    {
+      "name": "flesh-eater",
+      "flags": "0000",
+      "patterns": [
+        "Your flesh dissolves, causing {target} {dmg} damage!"
+      ]
+    },
+    {
+      "name": "folds of worship",
+      "flags": "0200",
+      "patterns": [
+        "You feel at one with the gods!",
+        "Your spiritual link fades to normal!",
+        "folds of worship:0200:0:",
+        "You pull your cloak tight about you!",
+        "Your spiritual link fades to normal!"
+      ]
+    },
+    {
+      "name": "forest sounds",
+      "flags": "0000",
+      "patterns": [
+        "The forest becomes strangely silent."
+      ]
+    },
+    {
+      "name": "forest sounds",
+      "flags": "0000",
+      "patterns": [
+        "A dry twig snaps loudly behind you."
+      ]
+    },
+    {
+      "name": "forest sounds",
+      "flags": "0000",
+      "patterns": [
+        "A flock of birds fly overhead."
+      ]
+    },
+    {
+      "name": "forest sounds",
+      "flags": "0000",
+      "patterns": [
+        "An ominous wind blows through the trees."
+      ]
+    },
+    {
+      "name": "forest sounds",
+      "flags": "0000",
+      "patterns": [
+        "The leaves begin to rustle, as if some beast were about to spring forth!"
+      ]
+    },
+    {
+      "name": "forked lightning",
+      "flags": "0000",
+      "patterns": [
+        "Forked lightning streaks out and fries {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "form of the crane",
+      "flags": "0000",
+      "patterns": [
+        "The spirit of the crane inhabits your body!",
+        "The spirit of the crane has left your body!"
+      ]
+    },
+    {
+      "name": "form of the dragon",
+      "flags": "0080",
+      "patterns": [
+        "The spirit of the dragon inhabits your body!",
+        "The spirit of the dragon has left your body!"
+      ]
+    },
+    {
+      "name": "form of the gorilla",
+      "flags": "0000",
+      "patterns": [
+        "The spirit of the gorilla inhabits your body!",
+        "The spirit of the gorilla has left your body!"
+      ]
+    },
+    {
+      "name": "form of the monkey",
+      "flags": "0000",
+      "patterns": [
+        "The spirit of the monkey inhabits your body!",
+        "The spirit of the monkey has left your body!",
+        "form of the monkey:0000:0:",
+        "You are distracted!",
+        "The spirit of the monkey has left your body!"
+      ]
+    },
+    {
+      "name": "form of the viper",
+      "flags": "0000",
+      "patterns": [
+        "The spirit of the viper inhabits your body!",
+        "The spirit of the viper has left your body!"
+      ]
+    },
+    {
+      "name": "freeze",
+      "flags": "0010",
+      "patterns": [
+        "You are frozen to the ground",
+        "You become unfrozen"
+      ]
+    },
+    {
+      "name": "freezing blizzard",
+      "flags": "0008",
+      "patterns": [
+        "Icy hail pelts everyone in the room",
+        "Your awareness returns to normal.",
+        "freezing blizzard:0008:0:",
+        "Icy hail pelts {target}, freezing your bones!",
+        "Your awareness returns to normal.",
+        "freezing blizzard:0008:0:",
+        "You feel oblivious!",
+        "Your awareness returns to normal."
+      ]
+    },
+    {
+      "name": "frenzy",
+      "flags": "0000",
+      "patterns": [
+        "You are in a battle frenzy",
+        "Your frenzied state wears off"
+      ]
+    },
+    {
+      "name": "frost hydra entry",
+      "flags": "0000",
+      "patterns": [
+        "The hydra strains against its icy bond, breaks it, and comes to life!"
+      ]
+    },
+    {
+      "name": "frost sceptre",
+      "flags": "0000",
+      "patterns": [
+        "A withering blast of cold freezes {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "frost sceptre-chill touch",
+      "flags": "0008",
+      "patterns": [
+        "You are chilled",
+        "The chill fades away"
+      ]
+    },
+    {
+      "name": "fumble",
+      "flags": "2002",
+      "patterns": [
+        "You fumble in confusion",
+        "The effects of confusion wear off"
+      ]
+    },
+    {
+      "name": "fungus cloud",
+      "flags": "0000",
+      "patterns": [
+        "Your lungs are filled with spores!",
+        "Your lungs fill with fresh air"
+      ]
+    },
+    {
+      "name": "galleon transport",
+      "flags": "0000",
+      "patterns": [
+        "You suddenly find your self aboard an ancient sea vessel!"
+      ]
+    },
+    {
+      "name": "gauntlets of power",
+      "flags": "0000",
+      "patterns": [
+        "You feel powerful",
+        "You feel less powerful"
+      ]
+    },
+    {
+      "name": "giant skeleton shriek",
+      "flags": "0000",
+      "patterns": [
+        "A storm of freezing hail smashes {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "glacial skin",
+      "flags": "0000",
+      "patterns": [
+        "Your skin is covered in hardened protective ice!",
+        "The protective ice melts and your skin returns to normal."
+      ]
+    },
+    {
+      "name": "glass orb",
+      "flags": "0000",
+      "patterns": [
+        "You feel lucky!",
+        "The effects of bless wear off!"
+      ]
+    },
+    {
+      "name": "glitterdust",
+      "flags": "0000",
+      "patterns": [
+        "You are glittering",
+        "The glittering dust wears off"
+      ]
+    },
+    {
+      "name": "globe of darkness",
+      "flags": "0001",
+      "patterns": [
+        "You are enveloped in darkness",
+        "The unnatural darkness lifts"
+      ]
+    },
+    {
+      "name": "globe of the elements",
+      "flags": "0000",
+      "patterns": [
+        "A globe of the elements surrounds you!",
+        "The globe dissipates into nothing!"
+      ]
+    },
+    {
+      "name": "globule",
+      "flags": "0010",
+      "patterns": [
+        "You are held by the queen's spit",
+        "You can move again"
+      ]
+    },
+    {
+      "name": "gnarled wand",
+      "flags": "0000",
+      "patterns": [
+        "A bolt of white-hot flame strikes {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "gnarled wand",
+      "flags": "0000",
+      "patterns": [
+        "{source} points a gnarled wand at {target} and utters \"Shirzak!\""
+      ]
+    },
+    {
+      "name": "gold dust",
+      "flags": "0000",
+      "patterns": [
+        "You are cursed by a leprechaun",
+        "The leprechaun's curse wears off"
+      ]
+    },
+    {
+      "name": "grall bite",
+      "flags": "0000",
+      "patterns": [
+        "Your energies have been dampened!",
+        "The dampening effect has gone!"
+      ]
+    },
+    {
+      "name": "granite orb",
+      "flags": "0000",
+      "patterns": [
+        "You feel powerful!",
+        "The effects of smite wear off!"
+      ]
+    },
+    {
+      "name": "greater bless",
+      "flags": "0000",
+      "patterns": [
+        "You feel VERY lucky",
+        "The effects of greater bless wear off"
+      ]
+    },
+    {
+      "name": "greater curse",
+      "flags": "0000",
+      "patterns": [
+        "You feel VERY unlucky",
+        "The effects of greater curse wear off"
+      ]
+    },
+    {
+      "name": "gruesome curse",
+      "flags": "0000",
+      "patterns": [
+        "You don't feel so good.",
+        "You begin to feel better, the taint removed."
+      ]
+    },
+    {
+      "name": "hand of death",
+      "flags": "0008",
+      "patterns": [
+        "You are affected by hand of death",
+        "The effects of hand of death wear off"
+      ]
+    },
+    {
+      "name": "hellfire shield",
+      "flags": "0000",
+      "patterns": [
+        "You are surrounded by an aura of hellfire!",
+        "The flames die down into nothingness."
+      ]
+    },
+    {
+      "name": "hell-flail",
+      "flags": "0000",
+      "patterns": [
+        "Dark flame sears {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "heros tabard",
+      "flags": "0000",
+      "patterns": [
+        "You feel protected!",
+        "The protective magic fades."
+      ]
+    },
+    {
+      "name": "high-pitched scream",
+      "flags": "0002",
+      "patterns": [
+        "You feel confused",
+        "The effects of the death dog's shriek wears off"
+      ]
+    },
+    {
+      "name": "hold person",
+      "flags": "0010",
+      "patterns": [
+        "Your legs are paralyzed",
+        "You can move again"
+      ]
+    },
+    {
+      "name": "holy armour",
+      "flags": "0000",
+      "patterns": [
+        "You feel protected",
+        "The effects of holy armour wear off"
+      ]
+    },
+    {
+      "name": "holy aura",
+      "flags": "0000",
+      "patterns": [
+        "You feel safe from evil",
+        "The effects of protection from evil wear off"
+      ]
+    },
+    {
+      "name": "Holy Wrath and Righteous Fury",
+      "flags": "0000",
+      "patterns": [
+        "{target} is purified with divine power for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "hot pants",
+      "flags": "0002",
+      "patterns": [
+        "You are mesmerized!",
+        "The effects of the hot pants wear off"
+      ]
+    },
+    {
+      "name": "hypnotic hands",
+      "flags": "0002",
+      "patterns": [
+        "You are confused",
+        "The effect of hypnotic hands wears off"
+      ]
+    },
+    {
+      "name": "ice crystal falchion",
+      "flags": "0000",
+      "patterns": [
+        "{target} take {dmg} damage from the cold!"
+      ]
+    },
+    {
+      "name": "ice crystal falchion",
+      "flags": "0000",
+      "patterns": [
+        "{target} takes {dmg} damage from the cold!"
+      ]
+    },
+    {
+      "name": "ice shield",
+      "flags": "0000",
+      "patterns": [
+        "You feel resistant to cold",
+        "The effects of resist cold wear off"
+      ]
+    },
+    {
+      "name": "ice storm",
+      "flags": "0008",
+      "patterns": [
+        "You are freezing",
+        "Your are no longer freezing"
+      ]
+    },
+    {
+      "name": "icehammer",
+      "flags": "0000",
+      "patterns": [
+        "{target} take {dmg} damage from the cold!"
+      ]
+    },
+    {
+      "name": "icehammer",
+      "flags": "0000",
+      "patterns": [
+        "{target} takes {dmg} damage from the cold!"
+      ]
+    },
+    {
+      "name": "infernal darkness",
+      "flags": "0001",
+      "patterns": [
+        "An unnatural darkness surrounds you!",
+        "The unnatural darkness dissipates"
+      ]
+    },
+    {
+      "name": "inferno",
+      "flags": "0000",
+      "patterns": [
+        "A pillar of flame appears and scorches {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "inquisitors cloak",
+      "flags": "0001",
+      "patterns": [
+        "You are blind!",
+        "You can see once more!"
+      ]
+    },
+    {
+      "name": "iron faith",
+      "flags": "0000",
+      "patterns": [
+        "Your resistance is strengthened",
+        "The effects of iron faith wear off"
+      ]
+    },
+    {
+      "name": "iron tube",
+      "flags": "0000",
+      "patterns": [
+        "A massive explosion blasts {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "iron tube",
+      "flags": "0000",
+      "patterns": [
+        "A massive explosion rocks {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "jade amulet",
+      "flags": "0004",
+      "patterns": [
+        "You are poisoned!",
+        "You rub your jade amulet!"
+      ]
+    },
+    {
+      "name": "jeweled viper death",
+      "flags": "0000",
+      "patterns": [
+        "Your blood runs cold as ice!",
+        "The chill leaves your body!"
+      ]
+    },
+    {
+      "name": "knockdown",
+      "flags": "0010",
+      "patterns": [
+        "You are flat on your back",
+        "You get back on your feet"
+      ]
+    },
+    {
+      "name": "leafwoven cloak",
+      "flags": "0200",
+      "patterns": [
+        "The energy of the earth flows through you!",
+        "The energies return to the land!"
+      ]
+    },
+    {
+      "name": "leprosy",
+      "flags": "0008",
+      "patterns": [
+        "You are covered in festering wounds",
+        "The festering wounds covering your body close abruptly"
+      ]
+    },
+    {
+      "name": "lightning hits",
+      "flags": "0000",
+      "patterns": [
+        "{target} are shocked for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "lightning hits",
+      "flags": "0000",
+      "patterns": [
+        "{target} is shocked for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "lightning shield",
+      "flags": "0000",
+      "patterns": [
+        "You feel resistant to lightning!",
+        "The effects of resist lightning wear off!"
+      ]
+    },
+    {
+      "name": "lightning trap",
+      "flags": "0000",
+      "patterns": [
+        "A bolt of lightning streaks out and fries {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "low on lives",
+      "flags": "0000",
+      "patterns": [
+        "You feel your life-force ebbing."
+      ]
+    },
+    {
+      "name": "maelstrom",
+      "flags": "0000",
+      "patterns": [
+        "A whirling maelstrom assaults {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "mageshield",
+      "flags": "0000",
+      "patterns": [
+        "You feel protected",
+        "Your mageshield shimmers and fades"
+      ]
+    },
+    {
+      "name": "magic armour",
+      "flags": "0000",
+      "patterns": [
+        "You feel armoured",
+        "The effects of magic armour wear off"
+      ]
+    },
+    {
+      "name": "magma blast",
+      "flags": "0000",
+      "patterns": [
+        "Your flaming magma blast strikes {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "magma blast",
+      "flags": "0000",
+      "patterns": [
+        "Your magma blast strikes {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "mana dead",
+      "flags": "0000",
+      "patterns": [
+        "Something has poisoned your mana!",
+        "Your mana returns to normal"
+      ]
+    },
+    {
+      "name": "mana flux",
+      "flags": "0200",
+      "patterns": [
+        "You are affected by a mana flux",
+        "The mana flux dissipates rapidly"
+      ]
+    },
+    {
+      "name": "mana storm",
+      "flags": "0000",
+      "patterns": [
+        "A swirling mana storm engulfs {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "manashield",
+      "flags": "0000",
+      "patterns": [
+        "You are surrounded by a shield of mana!",
+        "Your manashield dissolves into nothingness."
+      ]
+    },
+    {
+      "name": "mantle of the woodsman",
+      "flags": "0000",
+      "patterns": [
+        "The feel of the hunt pulses in your veins!",
+        "The spirit of the hunt dissipates!"
+      ]
+    },
+    {
+      "name": "mass frenzy",
+      "flags": "0000",
+      "patterns": [
+        "You are in a battle frenzy",
+        "Your frenzied state wears off"
+      ]
+    },
+    {
+      "name": "mermex poison",
+      "flags": "0004",
+      "patterns": [
+        "You are dizzy and disoriented from poison",
+        "The dizzying poison runs its course"
+      ]
+    },
+    {
+      "name": "meteor swarm",
+      "flags": "0000",
+      "patterns": [
+        "Your streaking meteor swarm strikes {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "meteor swarm",
+      "flags": "0000",
+      "patterns": [
+        "{source} launches a meteor swarm at {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "mistweed",
+      "flags": "0004",
+      "patterns": [
+        "You are drowsy and disoriented!",
+        "You feel better.",
+        "mistweed:1034:0:",
+        "You are unconscious.",
+        "You awaken, groggy and confused from the poison."
+      ]
+    },
+    {
+      "name": "molecular agitation",
+      "flags": "0000",
+      "patterns": [
+        "{target} are wracked with pain for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "molecular agitation",
+      "flags": "0000",
+      "patterns": [
+        "{target} is wracked with pain for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "monster entrance",
+      "flags": "0000",
+      "patterns": [
+        "From the fresh corpse arises a vampire!"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A barrow wight steps out of the shadows"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A chill runs down your spine. Something is with you!"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A coral lobster rises from its rest"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A dark storm approaches"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A deathly shriek announces an evil prescence"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A gibbering horror crawls out of the large gibbering horror's corpse"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A head sprouts from the hydra's shoulders"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A horde of severed heads descend upon you!"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A laughter filled with ancient evil sounds behind you"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A mocking female laugh announces an evil prescence"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A moss zombie rises from the ground"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A silvery skull materializes with a metallic shriek"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A skeleton arises from its place of rest"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A small gibbering horror crawls out of the gibbering horror's corpse"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A swirling red mist forms nearby"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A tentacled abomination slithers out of the dark pool"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "A whipvine breaks through the ground"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "An unholy idol animates"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "As the Champion of Blood falls, a tower of fire whirls about his body"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "Dark smoke and the smell of burning flesh flood the room"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "Hundreds of insects rise from the ground forming a large swarm"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "Out of nothingness a hundred scarab beetles appear to feast on you"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "The dark phoenix hatches from its volcanic nest"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "The feline form of a grall emerges from the shadows"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "The giant shrugs off his glacial prison, and bellows in rage"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "The hydra strains against its icy bond, breaks it, and comes to life!"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "The king crab burrows up through the sand"
+      ]
+    },
+    {
+      "name": "monster entry",
+      "flags": "0000",
+      "patterns": [
+        "The storm giant king stands here in his throne room"
+      ]
+    },
+    {
+      "name": "moonblade",
+      "flags": "0000",
+      "patterns": [
+        "A brilliant beam zaps {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "multicoloured sash",
+      "flags": "0000",
+      "patterns": [
+        "You feel evasive",
+        "Your quickness returns to normal"
+      ]
+    },
+    {
+      "name": "mushroom poison",
+      "flags": "0004",
+      "patterns": [
+        "You feel deathly ill",
+        "The deathly sickness wears off"
+      ]
+    },
+    {
+      "name": "mute",
+      "flags": "0000",
+      "patterns": [
+        "You are silenced",
+        "You can talk again"
+      ]
+    },
+    {
+      "name": "natural prowess",
+      "flags": "0000",
+      "patterns": [
+        "Wild forces of nature enhance your prowess!",
+        "The forces of nature leave you."
+      ]
+    },
+    {
+      "name": "nature tap",
+      "flags": "0200",
+      "patterns": [
+        "You feel the power of a nature tap!",
+        "Your tap into nature leaves your body!"
+      ]
+    },
+    {
+      "name": "net",
+      "flags": "0010",
+      "patterns": [
+        "You are entangled in a net!",
+        "You work yourself free again."
+      ]
+    },
+    {
+      "name": "net end message",
+      "flags": "0000",
+      "patterns": [
+        "You work yourself free."
+      ]
+    },
+    {
+      "name": "nexus spear",
+      "flags": "0000",
+      "patterns": [
+        "Energy sears {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "obsidian statue",
+      "flags": "0000",
+      "patterns": [
+        "The obisidan statue shatters into a thousand pieces."
+      ]
+    },
+    {
+      "name": "obsidian statue death",
+      "flags": "0000",
+      "patterns": [
+        "The obisidan statue shatters into a thousand pieces."
+      ]
+    },
+    {
+      "name": "opal ring",
+      "flags": "0000",
+      "patterns": [
+        "Dark energy sears {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "opalescent mist",
+      "flags": "0012",
+      "patterns": [
+        "Your mind is muddled",
+        "Your mind clears"
+      ]
+    },
+    {
+      "name": "orange potion",
+      "flags": "0000",
+      "patterns": [
+        "You feel heroic",
+        "Your heroism wears off"
+      ]
+    },
+    {
+      "name": "pale green lichen",
+      "flags": "0002",
+      "patterns": [
+        "You have an altered perception of reality",
+        "You shake your head dazedly as the effects of the lichen wear off"
+      ]
+    },
+    {
+      "name": "paralyze",
+      "flags": "0010",
+      "patterns": [
+        "Your legs are paralyzed",
+        "You can move again"
+      ]
+    },
+    {
+      "name": "paralyzed",
+      "flags": "0030",
+      "patterns": [
+        "You are paralyzed",
+        "The paralysis wears off"
+      ]
+    },
+    {
+      "name": "partial petrification",
+      "flags": "0000",
+      "patterns": [
+        "You are partially petrified",
+        "Your body returns to normal"
+      ]
+    },
+    {
+      "name": "peasant cloak",
+      "flags": "0200",
+      "patterns": [
+        "Your mind is at peace!",
+        "The chaos of the world returns!"
+      ]
+    },
+    {
+      "name": "petrification",
+      "flags": "1030",
+      "patterns": [
+        "You are transformed into stone",
+        "Your body returns to its normal state",
+        "petrification:1030:0:",
+        "You struggle, but you are solid stone",
+        "Your body returns to its normal state"
+      ]
+    },
+    {
+      "name": "plague",
+      "flags": "0008",
+      "patterns": [
+        "You are afflicted with a hideous plague",
+        "The hideous plague wears off",
+        "plague:0008:0:",
+        "You are plagued",
+        "The plague dies down"
+      ]
+    },
+    {
+      "name": "poison bolt",
+      "flags": "0004",
+      "patterns": [
+        "casts poison bolt upon you",
+        "The effects of the poison wear off"
+      ]
+    },
+    {
+      "name": "poison cloud",
+      "flags": "0004",
+      "patterns": [
+        "A noxious cloud of poison fills the room",
+        "The effects of the poison wear off",
+        "poison cloud:0004:0:",
+        "casts poison cloud on you",
+        "The effects of the poison wear off"
+      ]
+    },
+    {
+      "name": "poison hits",
+      "flags": "0000",
+      "patterns": [
+        "{target} are poisoned for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "poison hits",
+      "flags": "0000",
+      "patterns": [
+        "{target} is poisoned for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "pool",
+      "flags": "0080",
+      "patterns": [
+        "You feel weak, but tranquil and soothed",
+        "The weakness and feeling of tranquility wears off"
+      ]
+    },
+    {
+      "name": "powerless",
+      "flags": "0000",
+      "patterns": [
+        "You feel powerless",
+        "You suddenly feel your strength return"
+      ]
+    },
+    {
+      "name": "pressure points",
+      "flags": "0000",
+      "patterns": [
+        "You are using pressure points",
+        "You stop using pressure points"
+      ]
+    },
+    {
+      "name": "priestly benediction",
+      "flags": "0000",
+      "patterns": [
+        "You are filled with a feeling of grace",
+        "The feeling subsides"
+      ]
+    },
+    {
+      "name": "prismatic beam",
+      "flags": "0000",
+      "patterns": [
+        "A massive blast of light sears your foes for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "profane link",
+      "flags": "0000",
+      "patterns": [
+        "A profane link is enhancing your power!",
+        "The link fades away into nothingness."
+      ]
+    },
+    {
+      "name": "protection from evil",
+      "flags": "0000",
+      "patterns": [
+        "You feel safe from evil",
+        "You no longer feel safe from evil!"
+      ]
+    },
+    {
+      "name": "protection from good",
+      "flags": "0000",
+      "patterns": [
+        "You feel safe from good",
+        "The effects of protection from good wear off"
+      ]
+    },
+    {
+      "name": "protective shell",
+      "flags": "0000",
+      "patterns": [
+        "You are encompassed by a protective shell!",
+        "Your protective shell vanishes into nothing"
+      ]
+    },
+    {
+      "name": "pyramid doors",
+      "flags": "0000",
+      "patterns": [
+        "Doors on this level creak and thump!"
+      ]
+    },
+    {
+      "name": "Rakshasha",
+      "flags": "1000",
+      "patterns": [
+        "The illusion vanishes in a flash!"
+      ]
+    },
+    {
+      "name": "rapid healing",
+      "flags": "0080",
+      "patterns": [
+        "You are healing faster",
+        "Your healing rate returns to normal"
+      ]
+    },
+    {
+      "name": "regeneration",
+      "flags": "0080",
+      "patterns": [
+        "You are regenerating quickly",
+        "You stop regenerating"
+      ]
+    },
+    {
+      "name": "rejuvinating field",
+      "flags": "0000",
+      "patterns": [
+        "You are regenerating quickly!",
+        "You stop rgenerating."
+      ]
+    },
+    {
+      "name": "resist cold",
+      "flags": "0000",
+      "patterns": [
+        "You feel resistant to cold",
+        "The effects of resist cold wear off",
+        "resist cold:0000:0:",
+        "You feel resistant to cold!",
+        "The effects of resist cold wear off!"
+      ]
+    },
+    {
+      "name": "resist fire",
+      "flags": "0000",
+      "patterns": [
+        "You feel resistant to fire",
+        "The effects of resist fire wear off"
+      ]
+    },
+    {
+      "name": "resist lightning",
+      "flags": "0000",
+      "patterns": [
+        "You feel resistant to lightning",
+        "The effects of resist lightning wear off"
+      ]
+    },
+    {
+      "name": "Retch",
+      "flags": "2000",
+      "patterns": [
+        "You retch uncontrollably!"
+      ]
+    },
+    {
+      "name": "righteousness",
+      "flags": "0000",
+      "patterns": [
+        "You are filled with divine power",
+        "The righteousness wears off"
+      ]
+    },
+    {
+      "name": "rip",
+      "flags": "0008",
+      "patterns": [
+        "You are bleeding all over the place",
+        "You stop bleeding"
+      ]
+    },
+    {
+      "name": "roar",
+      "flags": "0010",
+      "patterns": [
+        "You are too scared to flee",
+        "You feel braver"
+      ]
+    },
+    {
+      "name": "rosebush sleep",
+      "flags": "0000",
+      "patterns": [
+        "You awaken from unnatural slumber."
+      ]
+    },
+    {
+      "name": "rosewood rod",
+      "flags": "0080",
+      "patterns": [
+        "You are healing faster!",
+        "Your healing rate returns to normal."
+      ]
+    },
+    {
+      "name": "rotting flesh",
+      "flags": "0008",
+      "patterns": [
+        "You are rotting",
+        "The disease dies down"
+      ]
+    },
+    {
+      "name": "runed cape",
+      "flags": "0200",
+      "patterns": [
+        "You see the magical runes auras around you!",
+        "The auras fade!"
+      ]
+    },
+    {
+      "name": "sacred bastion",
+      "flags": "0000",
+      "patterns": [
+        "You are surrounded in a silvery aura!",
+        "The silvery aura fades."
+      ]
+    },
+    {
+      "name": "sand blind",
+      "flags": "0001",
+      "patterns": [
+        "You are blinded by the sand",
+        "You can see again"
+      ]
+    },
+    {
+      "name": "sandstorm",
+      "flags": "0001",
+      "patterns": [
+        "A sandstorm surrounds you!",
+        "The sandstorm subsides, allowing your scathed flesh to heal."
+      ]
+    },
+    {
+      "name": "sawblade trap",
+      "flags": "0000",
+      "patterns": [
+        "A whirring sawblade swings out and rips {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "senselessness",
+      "flags": "0000",
+      "patterns": [
+        "You feel oblivious",
+        "Your awareness returns to normal"
+      ]
+    },
+    {
+      "name": "serenity",
+      "flags": "0000",
+      "patterns": [
+        "You feel calm and serene.",
+        "The feeling of serenity fades away."
+      ]
+    },
+    {
+      "name": "serpent scourge",
+      "flags": "0000",
+      "patterns": [
+        "Venom sears {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "severd heads",
+      "flags": "0000",
+      "patterns": [
+        "A horde of severed heads descend upon you!"
+      ]
+    },
+    {
+      "name": "shadowform",
+      "flags": "0000",
+      "patterns": [
+        "You are a shadow",
+        "You return to your normal form"
+      ]
+    },
+    {
+      "name": "shapeshifter",
+      "flags": "1400",
+      "patterns": [
+        "and changes into an amorphous beast!"
+      ]
+    },
+    {
+      "name": "sharp blade",
+      "flags": "0008",
+      "patterns": [
+        "You are bleeding from a jagged, painful wound",
+        "The painful bleeding wound closes"
+      ]
+    },
+    {
+      "name": "shawl of fortune",
+      "flags": "0000",
+      "patterns": [
+        "The grace of the ancient gypsies flows through you!",
+        "The ancient gypsy grace leaves your body!"
+      ]
+    },
+    {
+      "name": "shimmering longsword",
+      "flags": "0000",
+      "patterns": [
+        "You feel lucky",
+        "The effects of bless wear off"
+      ]
+    },
+    {
+      "name": "shimmering mirage",
+      "flags": "0000",
+      "patterns": [
+        "You are fading in and out of view!",
+        "The shimmering glow fades away"
+      ]
+    },
+    {
+      "name": "shock hit",
+      "flags": "0000",
+      "patterns": [
+        "{target} is shocked for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "shockshield",
+      "flags": "0000",
+      "patterns": [
+        "You are shockshielded",
+        "The effects of shockshield wear off",
+        "shockshield:0000:0:",
+        "You are surrounded by a shield of lightning!",
+        "The effects of shockshield wear off",
+        "shockshield:0000:0:",
+        "{target} are zapped for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "Silveremere sounds",
+      "flags": "0000",
+      "patterns": [
+        "A dog barks off in the distance."
+      ]
+    },
+    {
+      "name": "Silvermere sounds",
+      "flags": "0000",
+      "patterns": [
+        "A guardsman shouts out the time of day."
+      ]
+    },
+    {
+      "name": "Silvermere sounds",
+      "flags": "0000",
+      "patterns": [
+        "A voice shouts aloud \"Read the bulletin in the Adventurer's Guild!\""
+      ]
+    },
+    {
+      "name": "Silvermere sounds",
+      "flags": "0000",
+      "patterns": [
+        "Children rush past you hopping around in youthful glee."
+      ]
+    },
+    {
+      "name": "Silvermere sounds",
+      "flags": "0000",
+      "patterns": [
+        "A cheer of many voices can be heard in the distance."
+      ]
+    },
+    {
+      "name": "Silvermere sounds",
+      "flags": "0000",
+      "patterns": [
+        "The awful sound of a drunken chorus echoes through the streets."
+      ]
+    },
+    {
+      "name": "silverwood staff",
+      "flags": "0000",
+      "patterns": [
+        "A brilliant beam of starlight spears {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "silvery mace",
+      "flags": "0000",
+      "patterns": [
+        "A shining spark strikes {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "skull-capped staff",
+      "flags": "0000",
+      "patterns": [
+        "A vampiric beam springs from the sockets and hits {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "sleep",
+      "flags": "0030",
+      "patterns": [
+        "You are fast asleep",
+        "You awaken from the unnatural slumber",
+        "sleep:0030:0:",
+        "You are lulled to sleep by the willow's magical song",
+        "You awaken from the unnatural slumber"
+      ]
+    },
+    {
+      "name": "slow",
+      "flags": "0000",
+      "patterns": [
+        "You feel slow",
+        "You speed up"
+      ]
+    },
+    {
+      "name": "smite",
+      "flags": "0000",
+      "patterns": [
+        "You feel powerful",
+        "The effects of smite wear off"
+      ]
+    },
+    {
+      "name": "solid fog",
+      "flags": "0000",
+      "patterns": [
+        "You feel slow",
+        "You speed up"
+      ]
+    },
+    {
+      "name": "song of agility",
+      "flags": "0000",
+      "patterns": [
+        "You feel agile",
+        "Your agility returns to normal"
+      ]
+    },
+    {
+      "name": "song of battle",
+      "flags": "0000",
+      "patterns": [
+        "Your blood races in your veins!",
+        "You begin to feel calmer."
+      ]
+    },
+    {
+      "name": "song of beauty",
+      "flags": "0000",
+      "patterns": [
+        "You feel radiant!",
+        "Your charm returns to normal"
+      ]
+    },
+    {
+      "name": "song of brilliance",
+      "flags": "0000",
+      "patterns": [
+        "You feel smart",
+        "Your intelligence returns to normal"
+      ]
+    },
+    {
+      "name": "song of clumsiness",
+      "flags": "0000",
+      "patterns": [
+        "You feel clumsy",
+        "Your agility returns to normal"
+      ]
+    },
+    {
+      "name": "song of dazzling",
+      "flags": "0002",
+      "patterns": [
+        "You are confused",
+        "The effects of confusion wear off"
+      ]
+    },
+    {
+      "name": "song of deflection",
+      "flags": "0000",
+      "patterns": [
+        "You are protected from attack",
+        "Your shield of deflection wears off"
+      ]
+    },
+    {
+      "name": "song of draining",
+      "flags": "0000",
+      "patterns": [
+        "You sing the song of draining to {target}, draining {dmg} hit points!"
+      ]
+    },
+    {
+      "name": "song of draining",
+      "flags": "0000",
+      "patterns": [
+        "{source} sings the song of draining to {target}, draining dmg} hit points!"
+      ]
+    },
+    {
+      "name": "song of enlightenment",
+      "flags": "0000",
+      "patterns": [
+        "Your mind is enlightened!",
+        "The feeling of enlightenment passes"
+      ]
+    },
+    {
+      "name": "song of evasion",
+      "flags": "0000",
+      "patterns": [
+        "You are protected from attack!",
+        "Your evasiveness wears off."
+      ]
+    },
+    {
+      "name": "song of foolishness",
+      "flags": "0000",
+      "patterns": [
+        "You feel foolish",
+        "Your wisdom returns to normal"
+      ]
+    },
+    {
+      "name": "song of force",
+      "flags": "0000",
+      "patterns": [
+        "You feel strong!",
+        "Your strength returns to normal."
+      ]
+    },
+    {
+      "name": "song of heroism",
+      "flags": "0000",
+      "patterns": [
+        "You feel heroic",
+        "The feeling of heroism wears off"
+      ]
+    },
+    {
+      "name": "song of knowledge",
+      "flags": "0000",
+      "patterns": [
+        "You feel smart!",
+        "Your intelligence returns to normal."
+      ]
+    },
+    {
+      "name": "song of lethargy",
+      "flags": "0000",
+      "patterns": [
+        "You feel slow",
+        "You speed up"
+      ]
+    },
+    {
+      "name": "song of life",
+      "flags": "0080",
+      "patterns": [
+        "You are healing faster",
+        "The song of life wears off"
+      ]
+    },
+    {
+      "name": "song of might",
+      "flags": "0000",
+      "patterns": [
+        "You feel strong",
+        "Your strength returns to normal"
+      ]
+    },
+    {
+      "name": "song of misfortune",
+      "flags": "0000",
+      "patterns": [
+        "You feel unlucky",
+        "The effects of misfortune wear off"
+      ]
+    },
+    {
+      "name": "song of quickness",
+      "flags": "0000",
+      "patterns": [
+        "You feel fast",
+        "You slow down"
+      ]
+    },
+    {
+      "name": "song of sageness",
+      "flags": "0000",
+      "patterns": [
+        "You feel wise!",
+        "Your wisdom returns to normal"
+      ]
+    },
+    {
+      "name": "song of shockwave",
+      "flags": "0000",
+      "patterns": [
+        "A shockwave strikes {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "song of silence",
+      "flags": "0000",
+      "patterns": [
+        "You are silenced",
+        "You can talk again"
+      ]
+    },
+    {
+      "name": "song of soothing",
+      "flags": "0080",
+      "patterns": [
+        "You feel soothed.",
+        "Your meditative state ends"
+      ]
+    },
+    {
+      "name": "song of stunning",
+      "flags": "0030",
+      "patterns": [
+        "You are stunned",
+        "You are no longer stunned"
+      ]
+    },
+    {
+      "name": "song of stupidity",
+      "flags": "0000",
+      "patterns": [
+        "You feel dull",
+        "Your intelligence returns to normal"
+      ]
+    },
+    {
+      "name": "song of swiftness",
+      "flags": "0000",
+      "patterns": [
+        "You feel agile!",
+        "Your agility returns to normal."
+      ]
+    },
+    {
+      "name": "song of the elements",
+      "flags": "0000",
+      "patterns": [
+        "You feel protected from the elements.",
+        "You are no longer protected from the elements!"
+      ]
+    },
+    {
+      "name": "song of traveling",
+      "flags": "0000",
+      "patterns": [
+        "Your load is lightened",
+        "The effects of song of traveling wear off"
+      ]
+    },
+    {
+      "name": "song of valour",
+      "flags": "0000",
+      "patterns": [
+        "You feel confident",
+        "The effects of valour wear off"
+      ]
+    },
+    {
+      "name": "song of weakness",
+      "flags": "0000",
+      "patterns": [
+        "You feel weak!",
+        "Your strength returns to normal"
+      ]
+    },
+    {
+      "name": "song of wisdom",
+      "flags": "0000",
+      "patterns": [
+        "You feel wise",
+        "Your wisdom returns to normal"
+      ]
+    },
+    {
+      "name": "soul rip",
+      "flags": "0000",
+      "patterns": [
+        "A strange force rips into thin depraved murderer for 413 damage!"
+      ]
+    },
+    {
+      "name": "soul rip",
+      "flags": "0000",
+      "patterns": [
+        "A strange force rips into {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "soulstrike",
+      "flags": "0000",
+      "patterns": [
+        "Spiritual power strikes {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "sounds",
+      "flags": "0000",
+      "patterns": [
+        "Something sinister seems to tickle your senses."
+      ]
+    },
+    {
+      "name": "speaks in a booming voice",
+      "flags": "0000",
+      "patterns": [
+        "You feel cursed",
+        "The effects of the mummy's curse wears off"
+      ]
+    },
+    {
+      "name": "spear trap",
+      "flags": "0000",
+      "patterns": [
+        "A spear flies out of the door and impales {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "speed",
+      "flags": "0000",
+      "patterns": [
+        "You feel fast",
+        "You slow down"
+      ]
+    },
+    {
+      "name": "spirit horde",
+      "flags": "0000",
+      "patterns": [
+        "A horde of shrieking spirits ravages {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "spits",
+      "flags": "0004",
+      "patterns": [
+        "You feel dizzy and weak",
+        "You are no longer dizzy and weak"
+      ]
+    },
+    {
+      "name": "spits a stream of venom",
+      "flags": "0004",
+      "patterns": [
+        "spits a stream of venom at you",
+        "The effects of the poison wear off"
+      ]
+    },
+    {
+      "name": "staff of the elements",
+      "flags": "0000",
+      "patterns": [
+        "An earthquake rocks {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "starlight",
+      "flags": "0000",
+      "patterns": [
+        "You are surrounded by a shimmering light!",
+        "Your starlight spell fades away."
+      ]
+    },
+    {
+      "name": "Statue death",
+      "flags": "0000",
+      "patterns": [
+        "The obisidan statue shatters into a thousand pieces"
+      ]
+    },
+    {
+      "name": "stinking cloud",
+      "flags": "0000",
+      "patterns": [
+        "You feel nauseous",
+        "You feel less sick"
+      ]
+    },
+    {
+      "name": "stoneskin",
+      "flags": "0000",
+      "patterns": [
+        "Your skin is as hard as stone",
+        "Your skin returns to normal"
+      ]
+    },
+    {
+      "name": "storm crown",
+      "flags": "0000",
+      "patterns": [
+        "Forked lightning streaks out and fries {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "stormhammer",
+      "flags": "0000",
+      "patterns": [
+        "Lightning strikes {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "stormmetal bracers",
+      "flags": "0000",
+      "patterns": [
+        "White lightning shoots out frying {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "stunned",
+      "flags": "1030",
+      "patterns": [
+        "You are stunned",
+        "You are no longer stunned"
+      ]
+    },
+    {
+      "name": "sunsword",
+      "flags": "0000",
+      "patterns": [
+        "{target} are scorched for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "sunsword",
+      "flags": "0000",
+      "patterns": [
+        "{target} is scorched for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "swamp damage",
+      "flags": "0000",
+      "patterns": [
+        "You take {dmg} from the poisonous swamp"
+      ]
+    },
+    {
+      "name": "tails of battle",
+      "flags": "0000",
+      "patterns": [
+        "The dance of battle fills your mind!",
+        "The battle song fades!"
+      ]
+    },
+    {
+      "name": "telekinesis",
+      "flags": "0000",
+      "patterns": [
+        "{target} are picked up by a mysterious force and slammed down for {dmg} damage"
+      ]
+    },
+    {
+      "name": "telekinesis",
+      "flags": "0000",
+      "patterns": [
+        "{target} is picked up by a mysterious force and slammed down for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "teleport",
+      "flags": "0004",
+      "patterns": [
+        "You are afflicted by teleportation sickness",
+        "The teleportation sickness wears off"
+      ]
+    },
+    {
+      "name": "tempest",
+      "flags": "0000",
+      "patterns": [
+        "The wind and rain batter {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "temple sounds",
+      "flags": "0000",
+      "patterns": [
+        "The angelic sound of a choir floats down through the air."
+      ]
+    },
+    {
+      "name": "temple sounds",
+      "flags": "0000",
+      "patterns": [
+        "The large temple bell clangs loudly, echoing the time of day."
+      ]
+    },
+    {
+      "name": "terror",
+      "flags": "0022",
+      "patterns": [
+        "You are afraid",
+        "The effects of fear wear off",
+        "terror:0022:0:",
+        "You have gone mad!",
+        "The effects of the madness wear off!"
+      ]
+    },
+    {
+      "name": "thick webbing",
+      "flags": "0010",
+      "patterns": [
+        "You are trapped in webbing",
+        "You are freed from the webbing"
+      ]
+    },
+    {
+      "name": "thin tendrils",
+      "flags": "0010",
+      "patterns": [
+        "You are bound by sticky threads",
+        "The organic cords binding you dissolve"
+      ]
+    },
+    {
+      "name": "thunderclap",
+      "flags": "0000",
+      "patterns": [
+        "A massive thunderclap blast your foes for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "thunderclap",
+      "flags": "0000",
+      "patterns": [
+        "A massive thunderclap blasts {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "thunderstaff",
+      "flags": "0000",
+      "patterns": [
+        "Blue-white lightning strikes {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "thunderstaff",
+      "flags": "0000",
+      "patterns": [
+        "{target} takes {dmg} lightning damage!"
+      ]
+    },
+    {
+      "name": "time distortion",
+      "flags": "0000",
+      "patterns": [
+        "You are caught in a time distortion field",
+        "You speed up"
+      ]
+    },
+    {
+      "name": "trap disarm",
+      "flags": "2000",
+      "patterns": [
+        "An arrow shoots out of the wall and strikes you!"
+      ]
+    },
+    {
+      "name": "trap disarm",
+      "flags": "2000",
+      "patterns": [
+        "As you fiddle with the wire, large stones pound down on you from above!"
+      ]
+    },
+    {
+      "name": "trap disarm",
+      "flags": "2000",
+      "patterns": [
+        "Spikes jut out and stab you as you trigger the trap!"
+      ]
+    },
+    {
+      "name": "trap disarm",
+      "flags": "2000",
+      "patterns": [
+        "Spikes jut out and stab you!"
+      ]
+    },
+    {
+      "name": "trap disarm",
+      "flags": "2000",
+      "patterns": [
+        "You attempt to disarm the trap, and a huge stone block crushes you!"
+      ]
+    },
+    {
+      "name": "trap disarm",
+      "flags": "2000",
+      "patterns": [
+        "You fail to disarm the hidden release, and spikes stab into you!"
+      ]
+    },
+    {
+      "name": "trap disarm",
+      "flags": "2000",
+      "patterns": [
+        "You fail to disarm the trap, and blades sweep out and slice you!"
+      ]
+    },
+    {
+      "name": "trap disarm",
+      "flags": "2000",
+      "patterns": [
+        "You trigger the trap, and a large spear shoots out!"
+      ]
+    },
+    {
+      "name": "trap disarm",
+      "flags": "2000",
+      "patterns": [
+        "You trigger the trap, and two stone slabs spring out and crush you!"
+      ]
+    },
+    {
+      "name": "trap disarm",
+      "flags": "2000",
+      "patterns": [
+        "You try and disarm the trap, but trigger it!"
+      ]
+    },
+    {
+      "name": "trap disarm",
+      "flags": "2000",
+      "patterns": [
+        "You try to disarm the trap, but instead trigger it!"
+      ]
+    },
+    {
+      "name": "twisted bone staff",
+      "flags": "0000",
+      "patterns": [
+        "{target} life is drained for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "twisted bone staff",
+      "flags": "0000",
+      "patterns": [
+        "{target}'s life is drained for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "unholy armour",
+      "flags": "0000",
+      "patterns": [
+        "You feel protected",
+        "The effects of unholy armour wear off"
+      ]
+    },
+    {
+      "name": "unholy aura",
+      "flags": "0000",
+      "patterns": [
+        "You feel safe from good",
+        "The effects of protection from good wear off"
+      ]
+    },
+    {
+      "name": "unholy fanaticism",
+      "flags": "0000",
+      "patterns": [
+        "You are in a state of fanatical fury!",
+        "You feel yourself becoming calmer."
+      ]
+    },
+    {
+      "name": "vile oil",
+      "flags": "0000",
+      "patterns": [
+        "You are nauseated",
+        "You recover from being nauseated"
+      ]
+    },
+    {
+      "name": "violet fluid",
+      "flags": "0009",
+      "patterns": [
+        "You are covered in a burning violet fluid!",
+        "The violet fluid covering you dries up."
+      ]
+    },
+    {
+      "name": "voodoo stab",
+      "flags": "0000",
+      "patterns": [
+        "{target} feel a stabbing pain for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "vortex of pain",
+      "flags": "0008",
+      "patterns": [
+        "You are in agony",
+        "The intense pain fades away"
+      ]
+    },
+    {
+      "name": "vulnerability",
+      "flags": "0000",
+      "patterns": [
+        "You feel vulnerable",
+        "You feel safer now"
+      ]
+    },
+    {
+      "name": "way of the bear",
+      "flags": "0000",
+      "patterns": [
+        "You feel strong, but clumsy",
+        "The way of the bear wears off"
+      ]
+    },
+    {
+      "name": "way of the boar",
+      "flags": "0000",
+      "patterns": [
+        "You feel berserk",
+        "The effects of way of the boar wear off"
+      ]
+    },
+    {
+      "name": "way of the cat",
+      "flags": "0000",
+      "patterns": [
+        "You feel stealthy",
+        "The effects of way of the cat wear off"
+      ]
+    },
+    {
+      "name": "way of the cobra",
+      "flags": "0004",
+      "patterns": [
+        "You are poisoned",
+        "The effects of the poison wear off"
+      ]
+    },
+    {
+      "name": "way of the mantis",
+      "flags": "0000",
+      "patterns": [
+        "You feel fast",
+        "You slow down"
+      ]
+    },
+    {
+      "name": "way of the monkey",
+      "flags": "0000",
+      "patterns": [
+        "You feel evasive",
+        "The effects of way of the monkey wear off"
+      ]
+    },
+    {
+      "name": "way of the owl",
+      "flags": "0000",
+      "patterns": [
+        "You feel strong-willed",
+        "The effects of way of the owl wear off"
+      ]
+    },
+    {
+      "name": "way of the rat",
+      "flags": "0000",
+      "patterns": [
+        "You are immune to poison",
+        "The way of the rat wears off"
+      ]
+    },
+    {
+      "name": "way of the tiger",
+      "flags": "0000",
+      "patterns": [
+        "You feel ferocious",
+        "The effects of way of the tiger wear off"
+      ]
+    },
+    {
+      "name": "way of the tortoise",
+      "flags": "0000",
+      "patterns": [
+        "You feel tough",
+        "The way of the tortoise wears off"
+      ]
+    },
+    {
+      "name": "way of the troll",
+      "flags": "0080",
+      "patterns": [
+        "You are regenerating quickly",
+        "You stop regenerating"
+      ]
+    },
+    {
+      "name": "weakness",
+      "flags": "0010",
+      "patterns": [
+        "You feel weak and powerless",
+        "You feel your strength return"
+      ]
+    },
+    {
+      "name": "web",
+      "flags": "0013",
+      "patterns": [
+        "You are caught in a cocoon!",
+        "You break free of the cocoon"
+      ]
+    },
+    {
+      "name": "whip entangle",
+      "flags": "0000",
+      "patterns": [
+        "You are pulled off-balance",
+        "You regain your balance"
+      ]
+    },
+    {
+      "name": "whirlwind of fire",
+      "flags": "0000",
+      "patterns": [
+        "A whirlwind of fire burns {target} for {dmg} damage!"
+      ]
+    },
+    {
+      "name": "white potion",
+      "flags": "0002",
+      "patterns": [
+        "You are drugged",
+        "Your body returns to normal"
+      ]
+    },
+    {
+      "name": "Winch failed",
+      "flags": "2000",
+      "patterns": [
+        "You heave mightily on the winch, but it does not budge."
+      ]
+    },
+    {
+      "name": "wind of haste",
+      "flags": "0000",
+      "patterns": [
+        "You feel fast",
+        "You slow down"
+      ]
+    },
+    {
+      "name": "wing cut",
+      "flags": "0008",
+      "patterns": [
+        "You bleed from a deep gash!",
+        "You stop bleeding."
+      ]
+    },
+    {
+      "name": "wretched boils",
+      "flags": "0008",
+      "patterns": [
+        "Boils fester all over your body!",
+        "The boils vanish from your body"
+      ]
+    },
+    {
+      "name": "Your spell has no effect in th",
+      "flags": "0000",
+      "patterns": [
+        "Your spell has no effect in this room!"
+      ]
+    },
+    {
+      "name": "zaps",
+      "flags": "0030",
+      "patterns": [
+        "You are stunned by electrical shock",
+        "The shock wears off"
+      ]
+    },
+    {
+      "name": "zeal",
+      "flags": "0000",
+      "patterns": [
+        "You are filled with divine power!",
+        "The righteousness wears off."
+      ]
+    }
+  ],
+  "source": "E:\\megamud\\Default\\Messages.md"
+}

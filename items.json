@@ -1,0 +1,11 @@
+{
+  "items": {
+    "101": {"name": "Tattered Cloth Robe", "slot": "body", "ac": 2, "strength": 0, "intellect": 1, "min_level": 1, "weight": 2.0, "value": 5, "uses": 0},
+    "102": {"name": "Spiked Plate Mail", "slot": "body", "ac": 12, "strength": 3, "intellect": -1, "min_level": 10, "weight": 12.0, "value": 120, "uses": 0},
+    "103": {"name": "Serrated Steel Dagger", "slot": "weapon", "ac": 0, "strength": 1, "intellect": 0, "min_level": 1, "weight": 1.0, "value": 10, "uses": 0},
+    "104": {"name": "Warlord's Cleaver", "slot": "weapon", "ac": 2, "strength": 5, "intellect": 0, "min_level": 12, "weight": 8.0, "value": 200, "uses": 0},
+    "201": {"name": "Heavy Ore Chunk", "slot": "misc", "ac": 0, "strength": 0, "intellect": 0, "min_level": 1, "weight": 15.0, "value": 3, "uses": 0},
+    "202": {"name": "Cracked Shield", "slot": "offhand", "ac": 1, "strength": 0, "intellect": 0, "min_level": 1, "weight": 6.0, "value": 2, "uses": 0}
+  },
+  "immunities": {}
+}

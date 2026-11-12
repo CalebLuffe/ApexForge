@@ -1,0 +1,281 @@
+{
+  "characters": {
+    "Mofo": {
+      "class": "Cleric",
+      "race": "Dwarf",
+      "level": 12,
+      "host": "127.0.0.1",
+      "port": 23,
+      "discord_webhook": "",
+      "leader_name": "Mofo",
+      "admin_names": [
+        "Mofo"
+      ],
+      "tick_cast_command": "cast bless",
+      "start_ipc_bus": false,
+      "pre_move_command": "",
+      "post_move_command": "",
+      "survival": {
+        "flee_hp_percentage": 30.0,
+        "rest_hp_percentage": 70.0,
+        "emergency_hangup_on_pvp": true,
+        "auto_rest_command": "rest",
+        "auto_stand_command": "stand",
+        "flee_hp_absolute": 0,
+        "min_monsters_flee": 0
+      },
+      "spells": {
+        "auto_heal": false,
+        "heal_spell": "heal",
+        "heal_hp_threshold": 0,
+        "heal_hp_pct": 60,
+        "heal_target": "self",
+        "party_heal_spell": "heal",
+        "party_heal_hp_pct": 50,
+        "auto_bless": false,
+        "bless_spell": "cast bless",
+        "bless_target": "self",
+        "auto_nuke": false,
+        "nuke_spell": "",
+        "min_nuke_monsters": 2,
+        "cast_at_end_of_round": false,
+        "vampiric_spells": []
+      },
+      "party": {
+        "is_leader": true,
+        "leader_name": "Mofo",
+        "followers": [],
+        "whitelist": [
+          "Mofo"
+        ],
+        "rest_healing_applies_to_party": false,
+        "disable_health_spam": false,
+        "hp_wait_threshold_pct": 50,
+        "party_heal_enabled": false
+      },
+      "combat": {
+        "auto_combat": true,
+        "current_profile": 1,
+        "profiles": {
+          "1": {
+            "weapon": "103",
+            "bs_weapon": "",
+            "alt_weapon": "",
+            "attack_command": "attack",
+            "nuke_spell": "",
+            "heal_spell": "heal"
+          }
+        },
+        "immunity_db_limit": 500
+      },
+      "navigation": {
+        "lockpick_enabled": false,
+        "lockpick_command": "pick lock",
+        "reengage_combat_on_lost": true,
+        "run_mode_suppress_combat": true
+      },
+      "inventory_economy": {
+        "active_mode": true,
+        "auto_buy": false,
+        "auto_sell": false,
+        "auto_deposit": false,
+        "auto_withdraw": false,
+        "keep_cash_copper": 0,
+        "stash_room_id": "",
+        "bank_room_id": "",
+        "buy_commands": [],
+        "sell_commands": [],
+        "deposit_commands": [],
+        "withdraw_commands": []
+      },
+      "automation": {
+        "restock_room_id": "1",
+        "restock_commands": [],
+        "corpse_loot_command": "get all corpse",
+        "corpse_snipe_command": "get all from corpse",
+        "interrupt_command": "bash",
+        "spell_interrupt_command": "bash",
+        "recovery_commands": [
+          "look",
+          "recall"
+        ],
+        "burden_drop_threshold": 0.85,
+        "max_carry_weight": 100.0,
+        "drop_candidates": [
+          "201",
+          "202"
+        ],
+        "auto_recheck_inventory_on_unknown": true
+      },
+      "stat_weights": {
+        "ac": 1.0,
+        "strength": 0.8,
+        "hp": 0.5,
+        "intellect": 0.3
+      }
+    },
+    "Justa": {
+      "class": "",
+      "race": "",
+      "level": 60,
+      "host": "192.168.137.135",
+      "port": 23,
+      "bbs_name": "mudserver01",
+      "discord_webhook": "",
+      "leader_name": "Justa",
+      "admin_names": [
+        "Justa"
+      ],
+      "tick_cast_command": "armr",
+      "start_ipc_bus": false,
+      "pre_move_command": "",
+      "post_move_command": "",
+      "stat_line_template": "full custom [HP=%h/%H,MA=%m/%M,Need=%X]:%r",
+      "survival": {
+        "flee_hp_percentage": 30.0,
+        "rest_hp_percentage": 90.0,
+        "emergency_hangup_on_pvp": false,
+        "auto_rest_command": "rest",
+        "auto_stand_command": "stand",
+        "flee_hp_absolute": 0,
+        "min_monsters_flee": 0,
+        "hp_full_pct": 99.0
+      },
+      "spells": {
+        "auto_heal": true,
+        "heal_spell": "mahe",
+        "heal_hp_threshold": 0,
+        "heal_hp_pct": 60.0,
+        "heal_target": "self",
+        "party_heal_spell": "mrai",
+        "party_heal_hp_pct": 50.0,
+        "party_heal2_spell": "grai",
+        "party_heal2_hp_pct": 20.0,
+        "auto_bless": true,
+        "bless_spell": "armr",
+        "bless_spells": [
+          "armr"
+        ],
+        "bless_target": "self",
+        "auto_nuke": false,
+        "nuke_spell": "gstk",
+        "min_nuke_monsters": 2,
+        "cast_at_end_of_round": false,
+        "vampiric_spells": [],
+        "poison_cure_cmd": "cure",
+        "disease_cure_cmd": "cdes",
+        "blind_cure_cmd": ""
+      },
+      "party": {
+        "is_leader": false,
+        "leader_name": "Mofo",
+        "followers": [],
+        "whitelist": [
+          "Mofo",
+          "Justa"
+        ],
+        "rest_healing_applies_to_party": false,
+        "disable_health_spam": false,
+        "hp_wait_threshold_pct": 50.0,
+        "party_heal_enabled": true,
+        "wait_cmd": "@wait",
+        "ok_cmd": "@ok",
+        "telepath_command": "telepath {leader} {text}",
+        "is_follower": true
+      },
+      "combat": {
+        "auto_combat": true,
+        "attack_cmd": "a",
+        "pre_attack_cmd": "srip",
+        "multi_attack_cmd": "para",
+        "attack_spell": "gstk",
+        "current_profile": 1,
+        "profiles": {
+          "1": {
+            "weapon": "stormhammer",
+            "bs_weapon": "",
+            "alt_weapon": "",
+            "attack_command": "a",
+            "nuke_spell": "gstk",
+            "heal_spell": "mahe"
+          }
+        },
+        "immunity_db_limit": 500,
+        "max_monsters": 2,
+        "run_rooms": 4
+      },
+      "navigation": {
+        "lockpick_enabled": false,
+        "lockpick_command": "pick lock",
+        "pick_max": 3,
+        "reengage_combat_on_lost": true,
+        "run_mode_suppress_combat": true,
+        "run_backwards": true
+      },
+      "inventory_economy": {
+        "active_mode": true,
+        "auto_buy": false,
+        "auto_sell": false,
+        "auto_deposit": true,
+        "auto_withdraw": false,
+        "keep_cash_copper": 0,
+        "max_coins": 1000,
+        "dont_be_heavy": true,
+        "stash_room_id": "",
+        "bank_room_id": "",
+        "bank_name": "Bank of Khazarad",
+        "buy_commands": [],
+        "sell_commands": [],
+        "deposit_commands": [],
+        "withdraw_commands": []
+      },
+      "automation": {
+        "restock_room_id": "1",
+        "restock_commands": [],
+        "corpse_loot_command": "get all corpse",
+        "corpse_snipe_command": "get all from corpse",
+        "interrupt_command": "bash",
+        "spell_interrupt_command": "bash",
+        "recovery_commands": [
+          "look",
+          "recall"
+        ],
+        "burden_drop_threshold": 0.85,
+        "max_carry_weight": 100.0,
+        "drop_candidates": [],
+        "auto_recheck_inventory_on_unknown": true,
+        "cmd_split_char": ";"
+      },
+      "stat_weights": {
+        "ac": 1.0,
+        "strength": 0.8,
+        "hp": 0.5,
+        "intellect": 0.3
+      },
+      "imported_from": "E:\\megamud\\Chars\\sysop.INI",
+      "bbs": {
+        "name": "mudserver01",
+        "telnet_addr": "192.168.137.135",
+        "telnet_port": 23,
+        "menu_prompt": "[MAJORMUD]:",
+        "ansi_cmd": "=a",
+        "relog_cmd": ";relog",
+        "logon_prompts": [
+          "your user-id",
+          "your password",
+          "your selection"
+        ],
+        "logon_replies": [
+          "",
+          "",
+          ""
+        ],
+        "speech_prefix": ".",
+        "broadcast_prefix": "'",
+        "runic_name": "Krabby Patty",
+        "source_ini": "E:\\megamud\\BBS\\mudserver01\\BBS.INI",
+        "credentials_note": "Removed from repo; set APEXFORGE_BBS_USER/APEXFORGE_BBS_PASS or configure locally"
+      }
+    }
+  }
+}
