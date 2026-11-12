@@ -2318,11 +2318,24 @@ class ApexForgeEngine:
                 # line-buffer accumulator: assemble prompt-bounded chunks/paragraphs for multi-line parsing
                 while "\n" in buffer:
                     line, buffer = buffer.split("\n", 1)
-                    self._stream_line_buffer.append(line)
                     if self._is_prompt_line(line.strip()):
+                        # Flush any previously accumulated non-prompt text, then this prompt chunk
+                        if self._stream_line_buffer:
+                            prev_chunk = "\n".join(self._stream_line_buffer)
+                            self._stream_line_buffer = []
+                            await self._process_stream_chunk(prev_chunk)
+                        self._stream_line_buffer.append(line)
                         chunk = "\n".join(self._stream_line_buffer)
                         self._stream_line_buffer = []
                         await self._process_stream_chunk(chunk)
+                    else:
+                        # Non-prompt line: flush prior accumulated text so it displays immediately,
+                        # then start a fresh accumulator with this line
+                        if self._stream_line_buffer:
+                            prev_chunk = "\n".join(self._stream_line_buffer)
+                            self._stream_line_buffer = []
+                            await self._process_stream_chunk(prev_chunk)
+                        self._stream_line_buffer.append(line)
 
                 # prompt-only fragments without newline (common BBS/MajorMUD prompts)
                 if buffer and ("\n" not in buffer):
@@ -2336,6 +2349,19 @@ class ApexForgeEngine:
                     elif self._bbs_menu_prompt and self._bbs_menu_prompt.lower() in buffer.lower():
                         await self.parse_stream_line(buffer)
                         buffer = ""
+                    else:
+                        # Flush any remaining non-prompt text so it is displayed as stream lines
+                        # (login prompts, welcome banners, etc. that don't end in newline or match prompt markers)
+                        for remaining_line in buffer.split("\n"):
+                            remaining_line = remaining_line.rstrip("\r")
+                            if remaining_line.strip():
+                                await self.parse_stream_line(remaining_line)
+                        buffer = ""
+                # Flush any remaining accumulated non-prompt text so it displays as stream lines
+                if self._stream_line_buffer:
+                    prev_chunk = "\n".join(self._stream_line_buffer)
+                    self._stream_line_buffer = []
+                    await self._process_stream_chunk(prev_chunk)
         except Exception as e:
             print(f"[-] Runtime loop error: {e}")
         finally:

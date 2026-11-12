@@ -32,26 +32,40 @@ ApexForge is a Python-based, terminal-focused MUD client/automation engine (Mega
 3. **Config/data**: ensure `profiles.json`, `paths.json`, `database.json`, `items.json` exist. `ultra_orchestrator.ps1` can provision minimal baseline files if missing (note: existing project data may be richer than baselines).
 
 ## How to use
-### Run headless engine
+### Launch the dashboard (single entry point)
 ```powershell
-python .\apexforge.py --profile <ProfileName> [--path <path_key> | --target <room_id>] [--host <host> --port <port>] [--no-connect] [--ipc-bus]
+python .\main.py
+```
+- Opens the **ApexForge Server Browser** (offline by default) showing your configured characters from `profiles.json`.
+- **Connect to an existing character**: click **Connect** on a character card to open a socket to that character's `host:port` and run its configured BBS/login script automatically — all inside the dashboard.
+- **Quick Connect (manual)**: enter any host, port, and character name to connect to a MUD/BBS server across the internet (e.g. `omniversebbs.com:23`). No pre-configured profile required.
+- **Create a character**: click **Create Character**, fill in name/host/port/class/race/level, then **Save**. The new profile is written to `profiles.json` and added to the server browser. Click **Connect** to log in.
+- Once connected, the full **Natural MUD Layout Grid** appears: [1] Primary Server Stream, [2] Comms/Alerts/Events, [3] Visual Automapper, [4] Party/IPC Telemetry, [5] Analytics & Monitor, [6] full-width color-shifting HP/MANA/XP vitals bars, [7] Command Input with `Q: P1/P2/P3` queue badge.
+- Press **Disconnect** (or `q`) to return to the server browser.
+
+### Auto-connect a profile on launch
+```powershell
+python .\main.py --profile Mofo --connect [--path <path_key> | --target <room_id>] [--ipc-bus]
+```
+- `--profile <name>`: character from `profiles.json` to connect.
+- `--connect`: open the socket and run BBS login immediately (dashboard starts connected).
+- `--path`: start a configured path from `paths.json`.
+- `--target`: route to a target room id on start.
+- `--ipc-bus`: start the local coordination bus (leader/follower).
+
+### Run headless engine (no dashboard)
+```powershell
+python .\apexforge.py --profile <ProfileName> [--path <path_key> | --target <room_id>] [--host <host> --port <port>] [--no-connect] [--ipc-bus] [--follower --leader-host <h> --leader-port <p>]
 ```
 - `--no-connect`: initialize subsystems without opening a MUD socket (offline/local).
-- `--ipc-bus`: start local coordination bus (default host/port from profile/config).
-- `--follower`: run as follower, connect to leader IPC bus for state/command sync and status reporting (`--leader-host/--leader-port` override profile).
-
-### Run dashboard
-```powershell
-python .\main.py --profile <ProfileName> [--connect] [--path <path_key>] [--target <room_id>] [--ipc-bus]
-```
-- Dashboard defaults to offline unless `--connect` is provided.
-- UI provides interactive controls: feature buttons and a command input to send raw commands or `@...` admin/engine commands (e.g. `@status`, `@path <key>`, `@route <room>`, `@stop`).
+- `--follower`: run as follower, connect to leader IPC bus for state/command sync and status reporting.
 
 ### Orchestrator (Windows/PowerShell)
 ```powershell
 .\ultra_orchestrator.ps1 [-CharacterProfile <name>] [-MudHost <host>] [-Port <port>] [-PathKey <key>] [-TargetRoom <id>] [-NoConnect] [-IpcBus] [-Dashboard]
 ```
 - Resolves `python` on PATH with fallback to the known local Python install; checks for `networkx`/`textual`.
+- `-Dashboard` launches `main.py` (the unified server-browser + Natural MUD Layout Grid). Without `-Dashboard` it launches the headless `apexforge.py`.
 
 ### Import MegaMUD data (optional/reference)
 ```powershell
@@ -87,6 +101,12 @@ Examples: `@status @where @speed @route @run @path @loop @flee @stop @reset @say
 - `tests/test_smoke_core.py` — rebuilt to be self-contained (temp `database.json` for the resolver test, not hardcoded `D:\ApexForge\database.json`); smoke test covering `parse_mp` triple preservation, recovery lock/unlock on prompt, and fake-server stream replay now passes → `smoke_ok`.
 - Re-validation: `python import_megamud.py --validate-paths --out D:\ApexForge` → **1232/1809 valid, 577 invalid** (was 1225/584; the parse_mp loop fix recovered 7 paths). All 577 invalid paths fail only on `no_direct_or_routed_edge` (1596 total); 0 missing nodes; every referenced room exists in `database.json`. No fabricated edges added (needs authoritative `E:\megamud` re-import or server-verified hops).
 - Verification: `python -m py_compile apexforge.py import_megamud.py tests/test_smoke_core.py` → `PY=0`; `tests/test_smoke_core.py` → `smoke_ok`.
+
+### 2026-11-12T14:00Z (session, stream display fix: server text + client responses now visible in dashboard)
+- `apexforge.py:run_lifecycle` — fixed stream accumulator so non-prompt text is flushed to `parse_stream_line` immediately instead of being stuck in `_stream_line_buffer` until a prompt arrives. Incoming BBS/server text (welcome banners, room descriptions, combat text, login prompts without newline) now always reaches `parse_stream_line` → `stream` events → dashboard Primary Server Stream [1]. Also flushes `_stream_line_buffer` at end of each read iteration.
+- `apexforge.py:run_lifecycle` — remaining-buffer handling now flushes accumulated non-prompt text via `parse_stream_line`, so login prompts and banners that lack prompt markers are displayed.
+- `main.py:_on_engine_event` — added handling for `raw_send` events (displays `> {command}` in main stream so user sees their own client responses) and `login_complete` events (displays `[*] Login complete (...)`). Outgoing commands from the command input and `@admin` hooks now appear in the stream.
+- Verification: stream display test passes (4/4 stream events emitted for non-prompt text); smoke tests → `smoke_ok`; dashboard mount test → ALL_TESTS_PASSED; all modules compile.
 
 ### 2026-11-11T20:32Z (session, solo resilience: accumulator, avoidance, gates)
 - `apexforge.py`: **Line-buffered paragraph accumulator** — inbound TCP stream is ANSI-stripped and accumulated into `_stream_line_buffer`, flushed into `_process_stream_chunk()` on verified prompt boundaries (and prompt-only/no-newline fragments) so multi-line/wrapped MajorMUD/BBS text is parsed with full paragraph context; chunk-level P1 control intercept runs before line dispatch.
